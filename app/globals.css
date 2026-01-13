@@ -1,11 +1,10 @@
 @import "tailwindcss";
 
-/* -----------------------------
+/* =====================================================
    DESIGN TOKENS
------------------------------ */
+===================================================== */
 
 :root {
-  /* Web3 Dark – premium, calm */
   --bg-base: #070b12;
   --bg-panel: #0c1220;
   --bg-card: #111827;
@@ -14,141 +13,90 @@
   --border: rgba(255,255,255,0.08);
 
   --text-main: #e5e7eb;
-  --text-muted: #9ca3af;
+  --text-secondary: #9ca3af;
   --text-dim: #6b7280;
 
-  /* Accents */
-  --accent: #38bdf8;     /* cyan-blue */
-  --accent-2: #8b5cf6;   /* purple */
+  --accent: #38bdf8;
+  --accent-2: #8b5cf6;
   --success: #22c55e;
   --danger: #ef4444;
 
-  /* Gradients */
-  --grad-primary: linear-gradient(135deg, #38bdf8, #8b5cf6);
-  --grad-soft: linear-gradient(
-    180deg,
-    rgba(56,189,248,0.12),
-    rgba(139,92,246,0.02)
-  );
+  --chart-1: #38bdf8;
+  --chart-2: #8b5cf6;
+  --chart-3: #22c55e;
+  --chart-4: #f59e0b;
+  --chart-5: #ef4444;
 
-  /* Glow */
+  --grad-primary: linear-gradient(135deg, #38bdf8, #8b5cf6);
+  --grad-soft: linear-gradient(180deg, rgba(56,189,248,0.12), rgba(139,92,246,0.02));
+
   --glow: 0 0 30px rgba(56,189,248,0.25);
 }
 
-/* Light SaaS theme */
 :root.light {
   --bg-base: #f8fafc;
   --bg-panel: #ffffff;
   --bg-card: #ffffff;
-  --bg-glass: rgba(255,255,255,0.6);
+  --bg-glass: rgba(15,23,42,0.02);
 
-  --border: #e5e7eb;
+  --border: #cbd5e1;
 
   --text-main: #0f172a;
-  --text-muted: #64748b;
-  --text-dim: #94a3b8;
+  --text-secondary: #334155;
+  --text-dim: #64748b;
 
   --accent: #2563eb;
   --accent-2: #6366f1;
   --success: #16a34a;
   --danger: #dc2626;
 
+  --chart-1: #2563eb;
+  --chart-2: #6366f1;
+  --chart-3: #16a34a;
+  --chart-4: #f59e0b;
+  --chart-5: #dc2626;
+
   --grad-primary: linear-gradient(135deg, #2563eb, #6366f1);
-  --grad-soft: linear-gradient(
-    180deg,
-    rgba(37,99,235,0.08),
-    rgba(99,102,241,0.02)
-  );
+  --grad-soft: linear-gradient(180deg, rgba(37,99,235,0.08), rgba(99,102,241,0.02));
 
   --glow: none;
 }
 
-/* -----------------------------
-   BASE STYLES
------------------------------ */
-
-html {
-  scroll-behavior: smooth;
-}
+/* =====================================================
+   BASE
+===================================================== */
 
 body {
-  background: radial-gradient(
-      circle at top,
-      rgba(56,189,248,0.08),
-      transparent 60%
-    ),
-    var(--bg-base);
+  background: var(--bg-base);
   color: var(--text-main);
-
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-
-  -webkit-font-smoothing: antialiased;
-  transition: background-color 0.4s ease, color 0.4s ease;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
 }
 
 * {
   border-color: var(--border);
 }
 
-/* -----------------------------
-   GLASS & CARDS
------------------------------ */
+/* =====================================================
+   CARDS & BENTO
+===================================================== */
 
-.glass {
-  background: var(--bg-glass);
-  backdrop-filter: blur(20px) saturate(160%);
-  border: 1px solid var(--border);
-}
-
-.card {
+.bento-item, .card {
   background: linear-gradient(180deg, var(--bg-card), var(--bg-panel));
   border: 1px solid var(--border);
   border-radius: 16px;
-}
-
-/* Bento grid item */
-.bento-item {
-  background: linear-gradient(180deg, var(--bg-card), var(--bg-panel));
-  border: 1px solid var(--border);
-  border-radius: 18px;
   padding: 1.5rem;
-  transition: 0.3s ease;
 }
 
 .bento-item:hover {
   border-color: var(--accent);
   box-shadow: var(--glow);
-  transform: translateY(-4px);
+  transform: translateY(-3px);
+  transition: 0.3s ease;
 }
 
-/* -----------------------------
-   TYPOGRAPHY
------------------------------ */
-
-.section-title {
-  font-size: 1.75rem;
-  font-weight: 700;
-  background: var(--grad-primary);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.section-subtitle {
-  color: var(--text-muted);
-}
-
-/* -----------------------------
+/* =====================================================
    BUTTONS
------------------------------ */
-
-.btn {
-  padding: 0.6rem 1.2rem;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: 0.25s ease;
-}
+===================================================== */
 
 .btn-primary {
   background: var(--grad-primary);
@@ -156,46 +104,14 @@ body {
   box-shadow: var(--glow);
 }
 
-.btn-primary:hover {
-  transform: translateY(-2px);
+/* =====================================================
+   CHARTS
+===================================================== */
+
+.chart-svg path {
+  transition: all 0.3s ease;
 }
 
-.btn-secondary {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text-main);
-}
-
-/* -----------------------------
-   INPUTS
------------------------------ */
-
-.input {
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 0.6rem 1rem;
-  color: var(--text-main);
-}
-
-.input:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-
-/* -----------------------------
-   UTILITIES
------------------------------ */
-
-.glow {
-  box-shadow: var(--glow);
-}
-
-.animate-fade {
-  animation: fade 0.4s ease;
-}
-
-@keyframes fade {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.chart-svg:hover path {
+  filter: drop-shadow(0 0 6px rgba(56,189,248,0.4));
 }

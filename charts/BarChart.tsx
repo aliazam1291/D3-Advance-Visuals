@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
+import { useChartSize } from './common/useChartSize';
 
 interface BarData {
   label: string;
@@ -19,17 +20,21 @@ interface BarChartProps {
 export function BarChart({
   data,
   title,
-  width = 600,
+  width,
   height = 300,
   color = 'var(--accent)',
 }: BarChartProps) {
   const svgRef = useRef<SVGSVGElement>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const tooltipRef = useRef<HTMLDivElement | null>(null);
+  const size = useChartSize(wrapperRef, height, 0.6);
+  const computedWidth = width || size.width;
 
   useEffect(() => {
     if (!data || data.length === 0 || !svgRef.current) return;
 
     const margin = { top: 20, right: 20, bottom: 40, left: 50 };
-    const innerWidth = width - margin.left - margin.right;
+    const innerWidth = computedWidth - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
     const svg = d3.select(svgRef.current);
@@ -47,20 +52,22 @@ export function BarChart({
       .range([innerHeight, 0]);
 
     const g = svg
-      .attr('width', width)
+      .attr('width', computedWidth)
       .attr('height', height)
       .append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
 
-    // Grid lines
+    // Grid lines (slightly stronger in light mode)
     g.append('g')
       .attr('class', 'grid')
-      .attr('opacity', 0.1)
       .call(
         d3.axisLeft(yScale)
           .tickSize(-innerWidth)
           .tickFormat(() => '')
-      );
+      )
+      .selectAll('line')
+      .attr('stroke', 'var(--border)')
+      .attr('stroke-opacity', 0.9);
 
     // Bars
     g.selectAll('rect')
@@ -70,34 +77,53 @@ export function BarChart({
       .attr('x', (d) => xScale(d.label) || 0)
       .attr('width', xScale.bandwidth())
       .attr('fill', color)
-      .attr('opacity', 0)
+      .attr('opacity', 0.9)
       .attr('y', innerHeight)
       .attr('height', 0)
+      .on('mouseenter', function (event, d) {
+        d3.select(this).attr('opacity', 1).attr('stroke', 'rgba(0,0,0,0.08)').attr('stroke-width', 1);
+        const tooltip = tooltipRef.current;
+        if (tooltip) {
+          tooltip.style.opacity = '1';
+          const rect = wrapperRef.current!.getBoundingClientRect();
+          const x = (xScale(d.label) || 0) + xScale.bandwidth() / 2;
+          tooltip.style.left = `${rect.left + margin.left + x}px`;
+          tooltip.style.top = `${rect.top + margin.top + (yScale(d.value))}px`;
+          tooltip.innerHTML = `<strong>${d.label}</strong><div>${d.value}</div>`;
+        }
+      })
+      .on('mouseleave', function () {
+        d3.select(this).attr('opacity', 0.9).attr('stroke', null);
+        const tooltip = tooltipRef.current;
+        if (tooltip) tooltip.style.opacity = '0';
+      })
       .transition()
       .duration(500)
       .delay((_, i) => i * 50)
       .attr('y', (d) => yScale(d.value))
-      .attr('height', (d) => innerHeight - yScale(d.value))
-      .attr('opacity', 1);
+      .attr('height', (d) => innerHeight - yScale(d.value));
 
     // X axis
     g.append('g')
       .attr('transform', `translate(0,${innerHeight})`)
       .call(d3.axisBottom(xScale))
-      .style('color', 'var(--text-muted)')
+      .style('color', 'var(--text-secondary)')
       .selectAll('text')
       .attr('font-size', '12px');
 
     // Y axis
     g.append('g')
       .call(d3.axisLeft(yScale).ticks(5))
-      .style('color', 'var(--text-muted)');
-  }, [data, width, height, color]);
+      .style('color', 'var(--text-secondary)');
+  }, [data, computedWidth, height, color]);
 
   return (
-    <div className="bento-item">
+    <div className="bento-item" ref={wrapperRef}>
       {title && <h3 className="text-lg font-semibold mb-4">{title}</h3>}
-      <svg ref={svgRef} />
+      <div style={{ position: 'relative' }}>
+        <svg ref={svgRef} />
+        <div ref={tooltipRef} className="chart-tooltip" style={{ opacity: 0 }} />
+      </div>
     </div>
   );
 }

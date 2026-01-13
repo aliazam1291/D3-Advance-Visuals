@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "lead",
+    "count": 314
+  },
+  {
+    "stage": "qualified",
+    "count": 329
+  },
+  {
+    "stage": "proposal",
+    "count": 346
+  },
+  {
+    "stage": "negotiation",
+    "count": 337
+  },
+  {
+    "stage": "won",
+    "count": 327
+  },
+  {
+    "stage": "lost",
+    "count": 347
+  }
+]

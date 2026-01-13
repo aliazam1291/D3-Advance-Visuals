@@ -1,26 +1,1402 @@
 [
   {
-    "vehicleId": "DL-01-AF-2345",
-    "driver": "Rahul",
-    "hub": "Delhi",
-    "status": "moving",
-    "speed": 62,
-    "health": 92
+    "id": "veh-1000",
+    "vin": "VIN100000",
+    "hub": "hub-3",
+    "status": "maintenance",
+    "speed_kmh": 42,
+    "fuel_pct": 79,
+    "delay_min": 44,
+    "health_score": 19
   },
   {
-    "vehicleId": "MH-02-ZX-9912",
-    "driver": "Aman",
-    "hub": "Mumbai",
+    "id": "veh-1001",
+    "vin": "VIN100001",
+    "hub": "hub-1",
+    "status": "in_transit",
+    "speed_kmh": 110.4,
+    "fuel_pct": 27,
+    "delay_min": 219,
+    "health_score": 55
+  },
+  {
+    "id": "veh-1002",
+    "vin": "VIN100002",
+    "hub": "hub-5",
     "status": "idle",
-    "speed": 6,
-    "health": 81
+    "speed_kmh": 64.7,
+    "fuel_pct": 10,
+    "delay_min": 145,
+    "health_score": 87
   },
   {
-    "vehicleId": "KA-05-PL-8831",
-    "driver": "Suresh",
-    "hub": "Bangalore",
+    "id": "veh-1003",
+    "vin": "VIN100003",
+    "hub": "hub-9",
+    "status": "maintenance",
+    "speed_kmh": 15.8,
+    "fuel_pct": 73,
+    "delay_min": 167,
+    "health_score": 64
+  },
+  {
+    "id": "veh-1004",
+    "vin": "VIN100004",
+    "hub": "hub-9",
+    "status": "charging",
+    "speed_kmh": 68.3,
+    "fuel_pct": 95,
+    "delay_min": 163,
+    "health_score": 93
+  },
+  {
+    "id": "veh-1005",
+    "vin": "VIN100005",
+    "hub": "hub-3",
+    "status": "decommissioned",
+    "speed_kmh": 77.4,
+    "fuel_pct": 41,
+    "delay_min": 216,
+    "health_score": 53
+  },
+  {
+    "id": "veh-1006",
+    "vin": "VIN100006",
+    "hub": "hub-2",
+    "status": "decommissioned",
+    "speed_kmh": 81.2,
+    "fuel_pct": 75,
+    "delay_min": 230,
+    "health_score": 0
+  },
+  {
+    "id": "veh-1007",
+    "vin": "VIN100007",
+    "hub": "hub-7",
+    "status": "maintenance",
+    "speed_kmh": 4.3,
+    "fuel_pct": 59,
+    "delay_min": 55,
+    "health_score": 39
+  },
+  {
+    "id": "veh-1008",
+    "vin": "VIN100008",
+    "hub": "hub-6",
+    "status": "idle",
+    "speed_kmh": 4.6,
+    "fuel_pct": 79,
+    "delay_min": 30,
+    "health_score": 70
+  },
+  {
+    "id": "veh-1009",
+    "vin": "VIN100009",
+    "hub": "hub-5",
+    "status": "in_transit",
+    "speed_kmh": 80.3,
+    "fuel_pct": 80,
+    "delay_min": 227,
+    "health_score": 40
+  },
+  {
+    "id": "veh-1010",
+    "vin": "VIN100010",
+    "hub": "hub-2",
+    "status": "charging",
+    "speed_kmh": 106.6,
+    "fuel_pct": 89,
+    "delay_min": 36,
+    "health_score": 32
+  },
+  {
+    "id": "veh-1011",
+    "vin": "VIN100011",
+    "hub": "hub-8",
+    "status": "charging",
+    "speed_kmh": 2.2,
+    "fuel_pct": 26,
+    "delay_min": 191,
+    "health_score": 7
+  },
+  {
+    "id": "veh-1012",
+    "vin": "VIN100012",
+    "hub": "hub-9",
     "status": "offline",
-    "speed": 0,
-    "health": 60
+    "speed_kmh": 101.8,
+    "fuel_pct": 51,
+    "delay_min": 153,
+    "health_score": 20
+  },
+  {
+    "id": "veh-1013",
+    "vin": "VIN100013",
+    "hub": "hub-4",
+    "status": "idle",
+    "speed_kmh": 62,
+    "fuel_pct": 81,
+    "delay_min": 72,
+    "health_score": 68
+  },
+  {
+    "id": "veh-1014",
+    "vin": "VIN100014",
+    "hub": "hub-6",
+    "status": "in_transit",
+    "speed_kmh": 82.3,
+    "fuel_pct": 15,
+    "delay_min": 225,
+    "health_score": 25
+  },
+  {
+    "id": "veh-1015",
+    "vin": "VIN100015",
+    "hub": "hub-2",
+    "status": "charging",
+    "speed_kmh": 43.2,
+    "fuel_pct": 68,
+    "delay_min": 62,
+    "health_score": 0
+  },
+  {
+    "id": "veh-1016",
+    "vin": "VIN100016",
+    "hub": "hub-6",
+    "status": "charging",
+    "speed_kmh": 67.8,
+    "fuel_pct": 50,
+    "delay_min": 24,
+    "health_score": 74
+  },
+  {
+    "id": "veh-1017",
+    "vin": "VIN100017",
+    "hub": "hub-3",
+    "status": "idle",
+    "speed_kmh": 17.7,
+    "fuel_pct": 15,
+    "delay_min": 78,
+    "health_score": 93
+  },
+  {
+    "id": "veh-1018",
+    "vin": "VIN100018",
+    "hub": "hub-4",
+    "status": "idle",
+    "speed_kmh": 38.4,
+    "fuel_pct": 33,
+    "delay_min": 163,
+    "health_score": 59
+  },
+  {
+    "id": "veh-1019",
+    "vin": "VIN100019",
+    "hub": "hub-8",
+    "status": "decommissioned",
+    "speed_kmh": 82.9,
+    "fuel_pct": 70,
+    "delay_min": 57,
+    "health_score": 78
+  },
+  {
+    "id": "veh-1020",
+    "vin": "VIN100020",
+    "hub": "hub-5",
+    "status": "decommissioned",
+    "speed_kmh": 58.5,
+    "fuel_pct": 30,
+    "delay_min": 207,
+    "health_score": 45
+  },
+  {
+    "id": "veh-1021",
+    "vin": "VIN100021",
+    "hub": "hub-9",
+    "status": "charging",
+    "speed_kmh": 87.5,
+    "fuel_pct": 52,
+    "delay_min": 194,
+    "health_score": 17
+  },
+  {
+    "id": "veh-1022",
+    "vin": "VIN100022",
+    "hub": "hub-2",
+    "status": "maintenance",
+    "speed_kmh": 108.3,
+    "fuel_pct": 41,
+    "delay_min": 4,
+    "health_score": 40
+  },
+  {
+    "id": "veh-1023",
+    "vin": "VIN100023",
+    "hub": "hub-1",
+    "status": "offline",
+    "speed_kmh": 5.7,
+    "fuel_pct": 95,
+    "delay_min": 141,
+    "health_score": 28
+  },
+  {
+    "id": "veh-1024",
+    "vin": "VIN100024",
+    "hub": "hub-1",
+    "status": "decommissioned",
+    "speed_kmh": 115.1,
+    "fuel_pct": 12,
+    "delay_min": 172,
+    "health_score": 92
+  },
+  {
+    "id": "veh-1025",
+    "vin": "VIN100025",
+    "hub": "hub-10",
+    "status": "offline",
+    "speed_kmh": 57.2,
+    "fuel_pct": 42,
+    "delay_min": 20,
+    "health_score": 90
+  },
+  {
+    "id": "veh-1026",
+    "vin": "VIN100026",
+    "hub": "hub-6",
+    "status": "maintenance",
+    "speed_kmh": 26.5,
+    "fuel_pct": 51,
+    "delay_min": 100,
+    "health_score": 37
+  },
+  {
+    "id": "veh-1027",
+    "vin": "VIN100027",
+    "hub": "hub-10",
+    "status": "in_transit",
+    "speed_kmh": 7.9,
+    "fuel_pct": 30,
+    "delay_min": 48,
+    "health_score": 55
+  },
+  {
+    "id": "veh-1028",
+    "vin": "VIN100028",
+    "hub": "hub-3",
+    "status": "idle",
+    "speed_kmh": 42.8,
+    "fuel_pct": 32,
+    "delay_min": 234,
+    "health_score": 25
+  },
+  {
+    "id": "veh-1029",
+    "vin": "VIN100029",
+    "hub": "hub-10",
+    "status": "decommissioned",
+    "speed_kmh": 108.9,
+    "fuel_pct": 58,
+    "delay_min": 153,
+    "health_score": 33
+  },
+  {
+    "id": "veh-1030",
+    "vin": "VIN100030",
+    "hub": "hub-8",
+    "status": "offline",
+    "speed_kmh": 63.7,
+    "fuel_pct": 33,
+    "delay_min": 64,
+    "health_score": 64
+  },
+  {
+    "id": "veh-1031",
+    "vin": "VIN100031",
+    "hub": "hub-1",
+    "status": "in_transit",
+    "speed_kmh": 73.4,
+    "fuel_pct": 6,
+    "delay_min": 13,
+    "health_score": 21
+  },
+  {
+    "id": "veh-1032",
+    "vin": "VIN100032",
+    "hub": "hub-6",
+    "status": "charging",
+    "speed_kmh": 8.8,
+    "fuel_pct": 46,
+    "delay_min": 140,
+    "health_score": 92
+  },
+  {
+    "id": "veh-1033",
+    "vin": "VIN100033",
+    "hub": "hub-3",
+    "status": "decommissioned",
+    "speed_kmh": 69,
+    "fuel_pct": 45,
+    "delay_min": 25,
+    "health_score": 97
+  },
+  {
+    "id": "veh-1034",
+    "vin": "VIN100034",
+    "hub": "hub-10",
+    "status": "decommissioned",
+    "speed_kmh": 108.9,
+    "fuel_pct": 26,
+    "delay_min": 101,
+    "health_score": 62
+  },
+  {
+    "id": "veh-1035",
+    "vin": "VIN100035",
+    "hub": "hub-8",
+    "status": "in_transit",
+    "speed_kmh": 108.3,
+    "fuel_pct": 7,
+    "delay_min": 141,
+    "health_score": 3
+  },
+  {
+    "id": "veh-1036",
+    "vin": "VIN100036",
+    "hub": "hub-7",
+    "status": "decommissioned",
+    "speed_kmh": 68.9,
+    "fuel_pct": 84,
+    "delay_min": 56,
+    "health_score": 56
+  },
+  {
+    "id": "veh-1037",
+    "vin": "VIN100037",
+    "hub": "hub-1",
+    "status": "idle",
+    "speed_kmh": 27.9,
+    "fuel_pct": 21,
+    "delay_min": 178,
+    "health_score": 99
+  },
+  {
+    "id": "veh-1038",
+    "vin": "VIN100038",
+    "hub": "hub-3",
+    "status": "in_transit",
+    "speed_kmh": 108.3,
+    "fuel_pct": 75,
+    "delay_min": 104,
+    "health_score": 73
+  },
+  {
+    "id": "veh-1039",
+    "vin": "VIN100039",
+    "hub": "hub-5",
+    "status": "in_transit",
+    "speed_kmh": 34.2,
+    "fuel_pct": 36,
+    "delay_min": 162,
+    "health_score": 12
+  },
+  {
+    "id": "veh-1040",
+    "vin": "VIN100040",
+    "hub": "hub-9",
+    "status": "charging",
+    "speed_kmh": 79.5,
+    "fuel_pct": 88,
+    "delay_min": 120,
+    "health_score": 63
+  },
+  {
+    "id": "veh-1041",
+    "vin": "VIN100041",
+    "hub": "hub-10",
+    "status": "idle",
+    "speed_kmh": 75.7,
+    "fuel_pct": 79,
+    "delay_min": 112,
+    "health_score": 4
+  },
+  {
+    "id": "veh-1042",
+    "vin": "VIN100042",
+    "hub": "hub-3",
+    "status": "idle",
+    "speed_kmh": 104,
+    "fuel_pct": 23,
+    "delay_min": 228,
+    "health_score": 80
+  },
+  {
+    "id": "veh-1043",
+    "vin": "VIN100043",
+    "hub": "hub-10",
+    "status": "offline",
+    "speed_kmh": 7.2,
+    "fuel_pct": 76,
+    "delay_min": 7,
+    "health_score": 60
+  },
+  {
+    "id": "veh-1044",
+    "vin": "VIN100044",
+    "hub": "hub-10",
+    "status": "offline",
+    "speed_kmh": 92.7,
+    "fuel_pct": 41,
+    "delay_min": 211,
+    "health_score": 40
+  },
+  {
+    "id": "veh-1045",
+    "vin": "VIN100045",
+    "hub": "hub-8",
+    "status": "in_transit",
+    "speed_kmh": 44.9,
+    "fuel_pct": 88,
+    "delay_min": 7,
+    "health_score": 55
+  },
+  {
+    "id": "veh-1046",
+    "vin": "VIN100046",
+    "hub": "hub-6",
+    "status": "idle",
+    "speed_kmh": 23,
+    "fuel_pct": 48,
+    "delay_min": 40,
+    "health_score": 84
+  },
+  {
+    "id": "veh-1047",
+    "vin": "VIN100047",
+    "hub": "hub-8",
+    "status": "idle",
+    "speed_kmh": 102.1,
+    "fuel_pct": 100,
+    "delay_min": 81,
+    "health_score": 43
+  },
+  {
+    "id": "veh-1048",
+    "vin": "VIN100048",
+    "hub": "hub-8",
+    "status": "maintenance",
+    "speed_kmh": 80.1,
+    "fuel_pct": 9,
+    "delay_min": 91,
+    "health_score": 99
+  },
+  {
+    "id": "veh-1049",
+    "vin": "VIN100049",
+    "hub": "hub-4",
+    "status": "maintenance",
+    "speed_kmh": 43.8,
+    "fuel_pct": 27,
+    "delay_min": 55,
+    "health_score": 23
+  },
+  {
+    "id": "veh-1050",
+    "vin": "VIN100050",
+    "hub": "hub-2",
+    "status": "idle",
+    "speed_kmh": 99.3,
+    "fuel_pct": 37,
+    "delay_min": 69,
+    "health_score": 27
+  },
+  {
+    "id": "veh-1051",
+    "vin": "VIN100051",
+    "hub": "hub-7",
+    "status": "offline",
+    "speed_kmh": 39.4,
+    "fuel_pct": 6,
+    "delay_min": 73,
+    "health_score": 62
+  },
+  {
+    "id": "veh-1052",
+    "vin": "VIN100052",
+    "hub": "hub-7",
+    "status": "decommissioned",
+    "speed_kmh": 112.3,
+    "fuel_pct": 97,
+    "delay_min": 55,
+    "health_score": 80
+  },
+  {
+    "id": "veh-1053",
+    "vin": "VIN100053",
+    "hub": "hub-2",
+    "status": "idle",
+    "speed_kmh": 36.2,
+    "fuel_pct": 74,
+    "delay_min": 105,
+    "health_score": 22
+  },
+  {
+    "id": "veh-1054",
+    "vin": "VIN100054",
+    "hub": "hub-9",
+    "status": "idle",
+    "speed_kmh": 43.7,
+    "fuel_pct": 77,
+    "delay_min": 164,
+    "health_score": 70
+  },
+  {
+    "id": "veh-1055",
+    "vin": "VIN100055",
+    "hub": "hub-6",
+    "status": "in_transit",
+    "speed_kmh": 82.5,
+    "fuel_pct": 41,
+    "delay_min": 157,
+    "health_score": 8
+  },
+  {
+    "id": "veh-1056",
+    "vin": "VIN100056",
+    "hub": "hub-4",
+    "status": "idle",
+    "speed_kmh": 51.6,
+    "fuel_pct": 76,
+    "delay_min": 224,
+    "health_score": 68
+  },
+  {
+    "id": "veh-1057",
+    "vin": "VIN100057",
+    "hub": "hub-3",
+    "status": "in_transit",
+    "speed_kmh": 4.5,
+    "fuel_pct": 19,
+    "delay_min": 17,
+    "health_score": 43
+  },
+  {
+    "id": "veh-1058",
+    "vin": "VIN100058",
+    "hub": "hub-5",
+    "status": "charging",
+    "speed_kmh": 49.2,
+    "fuel_pct": 42,
+    "delay_min": 208,
+    "health_score": 85
+  },
+  {
+    "id": "veh-1059",
+    "vin": "VIN100059",
+    "hub": "hub-7",
+    "status": "idle",
+    "speed_kmh": 110.8,
+    "fuel_pct": 12,
+    "delay_min": 20,
+    "health_score": 82
+  },
+  {
+    "id": "veh-1060",
+    "vin": "VIN100060",
+    "hub": "hub-4",
+    "status": "decommissioned",
+    "speed_kmh": 59.8,
+    "fuel_pct": 73,
+    "delay_min": 155,
+    "health_score": 93
+  },
+  {
+    "id": "veh-1061",
+    "vin": "VIN100061",
+    "hub": "hub-7",
+    "status": "decommissioned",
+    "speed_kmh": 3.3,
+    "fuel_pct": 26,
+    "delay_min": 193,
+    "health_score": 41
+  },
+  {
+    "id": "veh-1062",
+    "vin": "VIN100062",
+    "hub": "hub-9",
+    "status": "maintenance",
+    "speed_kmh": 92.9,
+    "fuel_pct": 48,
+    "delay_min": 233,
+    "health_score": 75
+  },
+  {
+    "id": "veh-1063",
+    "vin": "VIN100063",
+    "hub": "hub-1",
+    "status": "idle",
+    "speed_kmh": 42.4,
+    "fuel_pct": 86,
+    "delay_min": 70,
+    "health_score": 40
+  },
+  {
+    "id": "veh-1064",
+    "vin": "VIN100064",
+    "hub": "hub-4",
+    "status": "idle",
+    "speed_kmh": 91.6,
+    "fuel_pct": 42,
+    "delay_min": 186,
+    "health_score": 40
+  },
+  {
+    "id": "veh-1065",
+    "vin": "VIN100065",
+    "hub": "hub-7",
+    "status": "maintenance",
+    "speed_kmh": 54.1,
+    "fuel_pct": 23,
+    "delay_min": 187,
+    "health_score": 31
+  },
+  {
+    "id": "veh-1066",
+    "vin": "VIN100066",
+    "hub": "hub-10",
+    "status": "in_transit",
+    "speed_kmh": 25.7,
+    "fuel_pct": 63,
+    "delay_min": 146,
+    "health_score": 77
+  },
+  {
+    "id": "veh-1067",
+    "vin": "VIN100067",
+    "hub": "hub-10",
+    "status": "maintenance",
+    "speed_kmh": 1.2,
+    "fuel_pct": 70,
+    "delay_min": 146,
+    "health_score": 54
+  },
+  {
+    "id": "veh-1068",
+    "vin": "VIN100068",
+    "hub": "hub-10",
+    "status": "decommissioned",
+    "speed_kmh": 31.3,
+    "fuel_pct": 81,
+    "delay_min": 177,
+    "health_score": 24
+  },
+  {
+    "id": "veh-1069",
+    "vin": "VIN100069",
+    "hub": "hub-7",
+    "status": "idle",
+    "speed_kmh": 42.6,
+    "fuel_pct": 58,
+    "delay_min": 173,
+    "health_score": 34
+  },
+  {
+    "id": "veh-1070",
+    "vin": "VIN100070",
+    "hub": "hub-10",
+    "status": "offline",
+    "speed_kmh": 20.9,
+    "fuel_pct": 7,
+    "delay_min": 79,
+    "health_score": 3
+  },
+  {
+    "id": "veh-1071",
+    "vin": "VIN100071",
+    "hub": "hub-2",
+    "status": "maintenance",
+    "speed_kmh": 37.1,
+    "fuel_pct": 19,
+    "delay_min": 78,
+    "health_score": 72
+  },
+  {
+    "id": "veh-1072",
+    "vin": "VIN100072",
+    "hub": "hub-3",
+    "status": "in_transit",
+    "speed_kmh": 21.2,
+    "fuel_pct": 77,
+    "delay_min": 170,
+    "health_score": 59
+  },
+  {
+    "id": "veh-1073",
+    "vin": "VIN100073",
+    "hub": "hub-1",
+    "status": "decommissioned",
+    "speed_kmh": 12,
+    "fuel_pct": 11,
+    "delay_min": 230,
+    "health_score": 58
+  },
+  {
+    "id": "veh-1074",
+    "vin": "VIN100074",
+    "hub": "hub-4",
+    "status": "charging",
+    "speed_kmh": 82.5,
+    "fuel_pct": 46,
+    "delay_min": 170,
+    "health_score": 2
+  },
+  {
+    "id": "veh-1075",
+    "vin": "VIN100075",
+    "hub": "hub-7",
+    "status": "charging",
+    "speed_kmh": 36.6,
+    "fuel_pct": 77,
+    "delay_min": 122,
+    "health_score": 85
+  },
+  {
+    "id": "veh-1076",
+    "vin": "VIN100076",
+    "hub": "hub-2",
+    "status": "offline",
+    "speed_kmh": 98.8,
+    "fuel_pct": 62,
+    "delay_min": 52,
+    "health_score": 92
+  },
+  {
+    "id": "veh-1077",
+    "vin": "VIN100077",
+    "hub": "hub-8",
+    "status": "maintenance",
+    "speed_kmh": 56.8,
+    "fuel_pct": 61,
+    "delay_min": 144,
+    "health_score": 50
+  },
+  {
+    "id": "veh-1078",
+    "vin": "VIN100078",
+    "hub": "hub-3",
+    "status": "decommissioned",
+    "speed_kmh": 45.5,
+    "fuel_pct": 65,
+    "delay_min": 62,
+    "health_score": 47
+  },
+  {
+    "id": "veh-1079",
+    "vin": "VIN100079",
+    "hub": "hub-4",
+    "status": "offline",
+    "speed_kmh": 30.3,
+    "fuel_pct": 88,
+    "delay_min": 104,
+    "health_score": 79
+  },
+  {
+    "id": "veh-1080",
+    "vin": "VIN100080",
+    "hub": "hub-3",
+    "status": "maintenance",
+    "speed_kmh": 36,
+    "fuel_pct": 91,
+    "delay_min": 44,
+    "health_score": 44
+  },
+  {
+    "id": "veh-1081",
+    "vin": "VIN100081",
+    "hub": "hub-1",
+    "status": "decommissioned",
+    "speed_kmh": 110.4,
+    "fuel_pct": 53,
+    "delay_min": 150,
+    "health_score": 39
+  },
+  {
+    "id": "veh-1082",
+    "vin": "VIN100082",
+    "hub": "hub-10",
+    "status": "charging",
+    "speed_kmh": 82,
+    "fuel_pct": 39,
+    "delay_min": 133,
+    "health_score": 22
+  },
+  {
+    "id": "veh-1083",
+    "vin": "VIN100083",
+    "hub": "hub-7",
+    "status": "maintenance",
+    "speed_kmh": 104.6,
+    "fuel_pct": 48,
+    "delay_min": 39,
+    "health_score": 56
+  },
+  {
+    "id": "veh-1084",
+    "vin": "VIN100084",
+    "hub": "hub-3",
+    "status": "charging",
+    "speed_kmh": 1.2,
+    "fuel_pct": 8,
+    "delay_min": 108,
+    "health_score": 77
+  },
+  {
+    "id": "veh-1085",
+    "vin": "VIN100085",
+    "hub": "hub-6",
+    "status": "in_transit",
+    "speed_kmh": 50.4,
+    "fuel_pct": 83,
+    "delay_min": 82,
+    "health_score": 32
+  },
+  {
+    "id": "veh-1086",
+    "vin": "VIN100086",
+    "hub": "hub-9",
+    "status": "charging",
+    "speed_kmh": 104.5,
+    "fuel_pct": 47,
+    "delay_min": 59,
+    "health_score": 61
+  },
+  {
+    "id": "veh-1087",
+    "vin": "VIN100087",
+    "hub": "hub-4",
+    "status": "maintenance",
+    "speed_kmh": 57.1,
+    "fuel_pct": 59,
+    "delay_min": 176,
+    "health_score": 80
+  },
+  {
+    "id": "veh-1088",
+    "vin": "VIN100088",
+    "hub": "hub-4",
+    "status": "in_transit",
+    "speed_kmh": 71,
+    "fuel_pct": 8,
+    "delay_min": 111,
+    "health_score": 73
+  },
+  {
+    "id": "veh-1089",
+    "vin": "VIN100089",
+    "hub": "hub-8",
+    "status": "charging",
+    "speed_kmh": 3.9,
+    "fuel_pct": 92,
+    "delay_min": 21,
+    "health_score": 36
+  },
+  {
+    "id": "veh-1090",
+    "vin": "VIN100090",
+    "hub": "hub-5",
+    "status": "decommissioned",
+    "speed_kmh": 31.9,
+    "fuel_pct": 65,
+    "delay_min": 175,
+    "health_score": 70
+  },
+  {
+    "id": "veh-1091",
+    "vin": "VIN100091",
+    "hub": "hub-9",
+    "status": "idle",
+    "speed_kmh": 29.3,
+    "fuel_pct": 100,
+    "delay_min": 105,
+    "health_score": 7
+  },
+  {
+    "id": "veh-1092",
+    "vin": "VIN100092",
+    "hub": "hub-5",
+    "status": "maintenance",
+    "speed_kmh": 59.2,
+    "fuel_pct": 86,
+    "delay_min": 201,
+    "health_score": 65
+  },
+  {
+    "id": "veh-1093",
+    "vin": "VIN100093",
+    "hub": "hub-7",
+    "status": "decommissioned",
+    "speed_kmh": 16.1,
+    "fuel_pct": 43,
+    "delay_min": 135,
+    "health_score": 26
+  },
+  {
+    "id": "veh-1094",
+    "vin": "VIN100094",
+    "hub": "hub-3",
+    "status": "charging",
+    "speed_kmh": 52.4,
+    "fuel_pct": 65,
+    "delay_min": 217,
+    "health_score": 3
+  },
+  {
+    "id": "veh-1095",
+    "vin": "VIN100095",
+    "hub": "hub-4",
+    "status": "idle",
+    "speed_kmh": 39.6,
+    "fuel_pct": 26,
+    "delay_min": 192,
+    "health_score": 56
+  },
+  {
+    "id": "veh-1096",
+    "vin": "VIN100096",
+    "hub": "hub-4",
+    "status": "idle",
+    "speed_kmh": 65.6,
+    "fuel_pct": 91,
+    "delay_min": 15,
+    "health_score": 73
+  },
+  {
+    "id": "veh-1097",
+    "vin": "VIN100097",
+    "hub": "hub-4",
+    "status": "decommissioned",
+    "speed_kmh": 49.1,
+    "fuel_pct": 94,
+    "delay_min": 51,
+    "health_score": 92
+  },
+  {
+    "id": "veh-1098",
+    "vin": "VIN100098",
+    "hub": "hub-10",
+    "status": "charging",
+    "speed_kmh": 36.1,
+    "fuel_pct": 33,
+    "delay_min": 90,
+    "health_score": 24
+  },
+  {
+    "id": "veh-1099",
+    "vin": "VIN100099",
+    "hub": "hub-8",
+    "status": "decommissioned",
+    "speed_kmh": 119,
+    "fuel_pct": 45,
+    "delay_min": 68,
+    "health_score": 73
+  },
+  {
+    "id": "veh-1100",
+    "vin": "VIN100100",
+    "hub": "hub-6",
+    "status": "offline",
+    "speed_kmh": 84,
+    "fuel_pct": 67,
+    "delay_min": 230,
+    "health_score": 70
+  },
+  {
+    "id": "veh-1101",
+    "vin": "VIN100101",
+    "hub": "hub-8",
+    "status": "idle",
+    "speed_kmh": 69.6,
+    "fuel_pct": 61,
+    "delay_min": 162,
+    "health_score": 56
+  },
+  {
+    "id": "veh-1102",
+    "vin": "VIN100102",
+    "hub": "hub-9",
+    "status": "idle",
+    "speed_kmh": 115.9,
+    "fuel_pct": 54,
+    "delay_min": 77,
+    "health_score": 4
+  },
+  {
+    "id": "veh-1103",
+    "vin": "VIN100103",
+    "hub": "hub-2",
+    "status": "decommissioned",
+    "speed_kmh": 36.1,
+    "fuel_pct": 95,
+    "delay_min": 59,
+    "health_score": 59
+  },
+  {
+    "id": "veh-1104",
+    "vin": "VIN100104",
+    "hub": "hub-10",
+    "status": "maintenance",
+    "speed_kmh": 62.2,
+    "fuel_pct": 28,
+    "delay_min": 233,
+    "health_score": 33
+  },
+  {
+    "id": "veh-1105",
+    "vin": "VIN100105",
+    "hub": "hub-6",
+    "status": "idle",
+    "speed_kmh": 119.6,
+    "fuel_pct": 96,
+    "delay_min": 203,
+    "health_score": 70
+  },
+  {
+    "id": "veh-1106",
+    "vin": "VIN100106",
+    "hub": "hub-10",
+    "status": "offline",
+    "speed_kmh": 50.2,
+    "fuel_pct": 6,
+    "delay_min": 234,
+    "health_score": 68
+  },
+  {
+    "id": "veh-1107",
+    "vin": "VIN100107",
+    "hub": "hub-2",
+    "status": "in_transit",
+    "speed_kmh": 114.6,
+    "fuel_pct": 78,
+    "delay_min": 105,
+    "health_score": 99
+  },
+  {
+    "id": "veh-1108",
+    "vin": "VIN100108",
+    "hub": "hub-10",
+    "status": "decommissioned",
+    "speed_kmh": 110,
+    "fuel_pct": 42,
+    "delay_min": 126,
+    "health_score": 12
+  },
+  {
+    "id": "veh-1109",
+    "vin": "VIN100109",
+    "hub": "hub-4",
+    "status": "offline",
+    "speed_kmh": 98.8,
+    "fuel_pct": 22,
+    "delay_min": 169,
+    "health_score": 36
+  },
+  {
+    "id": "veh-1110",
+    "vin": "VIN100110",
+    "hub": "hub-7",
+    "status": "maintenance",
+    "speed_kmh": 50.3,
+    "fuel_pct": 98,
+    "delay_min": 168,
+    "health_score": 11
+  },
+  {
+    "id": "veh-1111",
+    "vin": "VIN100111",
+    "hub": "hub-3",
+    "status": "maintenance",
+    "speed_kmh": 39.7,
+    "fuel_pct": 72,
+    "delay_min": 174,
+    "health_score": 8
+  },
+  {
+    "id": "veh-1112",
+    "vin": "VIN100112",
+    "hub": "hub-3",
+    "status": "offline",
+    "speed_kmh": 38.3,
+    "fuel_pct": 87,
+    "delay_min": 165,
+    "health_score": 31
+  },
+  {
+    "id": "veh-1113",
+    "vin": "VIN100113",
+    "hub": "hub-4",
+    "status": "offline",
+    "speed_kmh": 5.8,
+    "fuel_pct": 60,
+    "delay_min": 42,
+    "health_score": 28
+  },
+  {
+    "id": "veh-1114",
+    "vin": "VIN100114",
+    "hub": "hub-8",
+    "status": "offline",
+    "speed_kmh": 2.9,
+    "fuel_pct": 49,
+    "delay_min": 215,
+    "health_score": 33
+  },
+  {
+    "id": "veh-1115",
+    "vin": "VIN100115",
+    "hub": "hub-8",
+    "status": "maintenance",
+    "speed_kmh": 80.9,
+    "fuel_pct": 78,
+    "delay_min": 217,
+    "health_score": 12
+  },
+  {
+    "id": "veh-1116",
+    "vin": "VIN100116",
+    "hub": "hub-2",
+    "status": "idle",
+    "speed_kmh": 110.5,
+    "fuel_pct": 12,
+    "delay_min": 176,
+    "health_score": 25
+  },
+  {
+    "id": "veh-1117",
+    "vin": "VIN100117",
+    "hub": "hub-2",
+    "status": "in_transit",
+    "speed_kmh": 95.6,
+    "fuel_pct": 49,
+    "delay_min": 128,
+    "health_score": 94
+  },
+  {
+    "id": "veh-1118",
+    "vin": "VIN100118",
+    "hub": "hub-7",
+    "status": "idle",
+    "speed_kmh": 51,
+    "fuel_pct": 24,
+    "delay_min": 117,
+    "health_score": 49
+  },
+  {
+    "id": "veh-1119",
+    "vin": "VIN100119",
+    "hub": "hub-9",
+    "status": "in_transit",
+    "speed_kmh": 52.3,
+    "fuel_pct": 68,
+    "delay_min": 239,
+    "health_score": 86
+  },
+  {
+    "id": "veh-1120",
+    "vin": "VIN100120",
+    "hub": "hub-1",
+    "status": "in_transit",
+    "speed_kmh": 89.7,
+    "fuel_pct": 47,
+    "delay_min": 40,
+    "health_score": 28
+  },
+  {
+    "id": "veh-1121",
+    "vin": "VIN100121",
+    "hub": "hub-3",
+    "status": "maintenance",
+    "speed_kmh": 30,
+    "fuel_pct": 78,
+    "delay_min": 36,
+    "health_score": 46
+  },
+  {
+    "id": "veh-1122",
+    "vin": "VIN100122",
+    "hub": "hub-6",
+    "status": "in_transit",
+    "speed_kmh": 22.2,
+    "fuel_pct": 34,
+    "delay_min": 144,
+    "health_score": 85
+  },
+  {
+    "id": "veh-1123",
+    "vin": "VIN100123",
+    "hub": "hub-10",
+    "status": "idle",
+    "speed_kmh": 2.8,
+    "fuel_pct": 100,
+    "delay_min": 23,
+    "health_score": 78
+  },
+  {
+    "id": "veh-1124",
+    "vin": "VIN100124",
+    "hub": "hub-10",
+    "status": "charging",
+    "speed_kmh": 57.5,
+    "fuel_pct": 19,
+    "delay_min": 209,
+    "health_score": 40
+  },
+  {
+    "id": "veh-1125",
+    "vin": "VIN100125",
+    "hub": "hub-5",
+    "status": "in_transit",
+    "speed_kmh": 72.9,
+    "fuel_pct": 95,
+    "delay_min": 118,
+    "health_score": 1
+  },
+  {
+    "id": "veh-1126",
+    "vin": "VIN100126",
+    "hub": "hub-4",
+    "status": "decommissioned",
+    "speed_kmh": 30.3,
+    "fuel_pct": 81,
+    "delay_min": 8,
+    "health_score": 69
+  },
+  {
+    "id": "veh-1127",
+    "vin": "VIN100127",
+    "hub": "hub-1",
+    "status": "idle",
+    "speed_kmh": 113.1,
+    "fuel_pct": 96,
+    "delay_min": 164,
+    "health_score": 73
+  },
+  {
+    "id": "veh-1128",
+    "vin": "VIN100128",
+    "hub": "hub-7",
+    "status": "decommissioned",
+    "speed_kmh": 89.1,
+    "fuel_pct": 89,
+    "delay_min": 168,
+    "health_score": 93
+  },
+  {
+    "id": "veh-1129",
+    "vin": "VIN100129",
+    "hub": "hub-8",
+    "status": "idle",
+    "speed_kmh": 2.7,
+    "fuel_pct": 5,
+    "delay_min": 39,
+    "health_score": 32
+  },
+  {
+    "id": "veh-1130",
+    "vin": "VIN100130",
+    "hub": "hub-7",
+    "status": "in_transit",
+    "speed_kmh": 112.2,
+    "fuel_pct": 35,
+    "delay_min": 129,
+    "health_score": 21
+  },
+  {
+    "id": "veh-1131",
+    "vin": "VIN100131",
+    "hub": "hub-4",
+    "status": "decommissioned",
+    "speed_kmh": 60.5,
+    "fuel_pct": 82,
+    "delay_min": 108,
+    "health_score": 1
+  },
+  {
+    "id": "veh-1132",
+    "vin": "VIN100132",
+    "hub": "hub-6",
+    "status": "idle",
+    "speed_kmh": 107.9,
+    "fuel_pct": 85,
+    "delay_min": 200,
+    "health_score": 84
+  },
+  {
+    "id": "veh-1133",
+    "vin": "VIN100133",
+    "hub": "hub-7",
+    "status": "in_transit",
+    "speed_kmh": 61.8,
+    "fuel_pct": 91,
+    "delay_min": 75,
+    "health_score": 30
+  },
+  {
+    "id": "veh-1134",
+    "vin": "VIN100134",
+    "hub": "hub-5",
+    "status": "offline",
+    "speed_kmh": 45.8,
+    "fuel_pct": 24,
+    "delay_min": 148,
+    "health_score": 38
+  },
+  {
+    "id": "veh-1135",
+    "vin": "VIN100135",
+    "hub": "hub-8",
+    "status": "idle",
+    "speed_kmh": 19.9,
+    "fuel_pct": 83,
+    "delay_min": 43,
+    "health_score": 42
+  },
+  {
+    "id": "veh-1136",
+    "vin": "VIN100136",
+    "hub": "hub-3",
+    "status": "idle",
+    "speed_kmh": 76.5,
+    "fuel_pct": 40,
+    "delay_min": 144,
+    "health_score": 51
+  },
+  {
+    "id": "veh-1137",
+    "vin": "VIN100137",
+    "hub": "hub-1",
+    "status": "maintenance",
+    "speed_kmh": 61.6,
+    "fuel_pct": 91,
+    "delay_min": 113,
+    "health_score": 60
+  },
+  {
+    "id": "veh-1138",
+    "vin": "VIN100138",
+    "hub": "hub-4",
+    "status": "in_transit",
+    "speed_kmh": 0.2,
+    "fuel_pct": 45,
+    "delay_min": 173,
+    "health_score": 5
+  },
+  {
+    "id": "veh-1139",
+    "vin": "VIN100139",
+    "hub": "hub-2",
+    "status": "charging",
+    "speed_kmh": 81.3,
+    "fuel_pct": 86,
+    "delay_min": 102,
+    "health_score": 7
   }
 ]

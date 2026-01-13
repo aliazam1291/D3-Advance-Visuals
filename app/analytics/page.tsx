@@ -1,100 +1,62 @@
-import { KPICard } from '@/charts/KPICard';
-import { MultiLineChart } from '@/charts/MultiLineChart';
-import { LineChart } from '@/charts/LineChart';
-import { Heatmap } from '@/charts/Heatmap';
-import kpis from '@/data/analytics/kpis.json';
-import performance from '@/data/analytics/performance.json';
+import { KPICard } from "@/charts/KPICard";
+import { MultiLineChart } from "@/charts/MultiLineChart";
+import { LineChart } from "@/charts/LineChart";
+import { Heatmap } from "@/charts/Heatmap";
+import analytics from "@/data/analytics/revenue.json";
+import traffic from "@/data/analytics/traffic_heatmap.json";
 
 export default function AnalyticsPage() {
-  const totalRevenue = kpis.reduce((sum, d) => sum + d.revenue, 0);
-  const avgRevenue = Math.round(totalRevenue / kpis.length);
-  const totalCost = kpis.reduce((sum, d) => sum + d.cost, 0);
+  const totalRevenue = analytics.reduce((s, d) => s + d.revenue, 0);
+  const totalCost = analytics.reduce((s, d) => s + d.cost, 0);
   const profitMargin = Math.round(((totalRevenue - totalCost) / totalRevenue) * 100);
 
   const stats = [
-    { title: 'Total Revenue', value: `$${(totalRevenue / 1000).toFixed(0)}K`, icon: '💰', color: 'success' as const },
-    { title: 'Avg Daily Revenue', value: `$${avgRevenue}`, icon: '📊', color: 'accent' as const },
-    { title: 'Total Cost', value: `$${(totalCost / 1000).toFixed(0)}K`, icon: '💸', color: 'warning' as const },
-    { title: 'Profit Margin', value: `${profitMargin}%`, icon: '📈', color: 'success' as const },
+    { title: "Revenue", value: `$${(totalRevenue / 1000).toFixed(0)}K`, icon: "💰", color: "success" },
+    { title: "Cost", value: `$${(totalCost / 1000).toFixed(0)}K`, icon: "💸", color: "danger" },
+    { title: "Margin", value: `${profitMargin}%`, icon: "📈", color: "success" },
+    { title: "Days", value: analytics.length, icon: "📅", color: "accent" },
   ];
 
-  const multiLineData = kpis.map((d) => ({
-    date: d.date,
-    orders: d.orders,
-    revenue: d.revenue,
-    cost: d.cost,
-    profit: d.revenue - d.cost,
-  }));
+  const revenueLine = analytics.map((d) => ({ x: d.date, y: d.revenue }));
+  const channels = ["online", "retail", "partners"];
+  const multiLine = analytics.map((d) => ({ date: d.date, ...d.channels }));
 
-  const revenueLineData = kpis.map((d, i) => ({ x: i, y: d.revenue }));
-
-  // Create heatmap data from performance
-  const heatmapData = performance.slice(0, 20).map((p, idx) => {
-    const conversionRate = (p.orders / (p.revenue / 100)) * 10; // Synthetic conversion metric
-    return {
-      row: `Metric ${Math.floor(idx / 5) + 1}`,
-      column: `Week ${(idx % 5) + 1}`,
-      value: conversionRate,
-    };
-  });
+  const heatmap = Object.entries(traffic).flatMap(([date, arr]) =>
+    arr.map((v, i) => ({ row: `H${i}`, column: date, value: v }))
+  );
 
   return (
-    <div className="space-y-8 animate-fade-in">
-      <div className="border-b border-[var(--border)] pb-6">
-        <h1 className="text-4xl font-black gradient-text mb-2">Business Analytics</h1>
-        <p className="text-[var(--text-secondary)] text-lg">Comprehensive business metrics, revenue trends, and performance analysis</p>
+    <div className="space-y-10">
+      <div>
+        <h1 className="text-3xl font-bold gradient-text">Analytics</h1>
+        <p className="text-[var(--text-secondary)]">Revenue, cost, channel performance and traffic</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        {stats.map((stat, i) => (
-          <KPICard key={i} {...stat} />
+      {/* KPIs */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {stats.map((s, i) => (
+          <KPICard key={i} {...s} />
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <LineChart data={revenueLineData} title="Daily Revenue" width={500} height={300} color="var(--accent-success)" />
+      {/* Bento Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2 bento-item">
+          <LineChart data={revenueLine} title="Daily Revenue" />
+        </div>
+
         <div className="bento-item">
-          <h3 className="text-lg font-semibold mb-4">Key Metrics</h3>
-          <div className="space-y-4">
-            {performance.slice(0, 5).map((p, idx) => {
-              const conversionRate = (p.orders / (p.revenue / 100)) * 10; // Synthetic metric
-              return (
-                <div key={idx} className="flex items-center justify-between">
-                  <span className="text-[var(--text-secondary)] text-sm">Conversion Rate Week {idx + 1}</span>
-                  <div className="flex items-center gap-3">
-                    <div className="w-32 h-2 bg-[var(--bg-tertiary)] rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-gradient-to-r from-[var(--chart-1)] to-[var(--chart-2)]"
-                        style={{ width: `${conversionRate}%` }}
-                      />
-                    </div>
-                    <span className="text-sm font-medium">{conversionRate.toFixed(1)}%</span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <MultiLineChart data={multiLine} keys={channels} title="Revenue Channels" />
+        </div>
+
+        <div className="lg:col-span-3 bento-item">
+          <Heatmap data={heatmap} />
         </div>
       </div>
 
-      <div>
-        <MultiLineChart
-          data={multiLineData}
-          keys={['revenue', 'cost', 'profit']}
-          title="Financial Performance"
-          width={1000}
-          height={350}
-          colors={['var(--chart-1)', 'var(--chart-3)', 'var(--chart-5)']}
-        />
-      </div>
-
-      <div>
-        <Heatmap
-          data={heatmapData}
-          title="Conversion Performance Matrix"
-          width={1000}
-          height={350}
-        />
+      {/* Extra density */}
+      <div className="bento-item">
+        <MultiLineChart data={multiLine} keys={channels} title="Channel Growth (Detailed View)" />
       </div>
     </div>
   );

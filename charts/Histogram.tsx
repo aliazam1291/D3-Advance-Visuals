@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
+import { useChartSize } from './common/useChartSize';
 
 interface HistogramData {
   value: number;
@@ -19,18 +20,22 @@ interface HistogramProps {
 export function Histogram({
   data,
   title,
-  width = 600,
+  width,
   height = 300,
   bins = 20,
   color = 'var(--accent)',
 }: HistogramProps) {
   const svgRef = useRef<SVGSVGElement>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const tooltipRef = useRef<HTMLDivElement | null>(null);
+  const size = useChartSize(wrapperRef, height, 0.35);
+  const computedWidth = width || size.width;
 
   useEffect(() => {
     if (!data || data.length === 0 || !svgRef.current) return;
 
     const margin = { top: 20, right: 20, bottom: 40, left: 50 };
-    const innerWidth = width - margin.left - margin.right;
+    const innerWidth = computedWidth - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
     const svg = d3.select(svgRef.current);
@@ -58,7 +63,7 @@ export function Histogram({
       .range([innerHeight, 0]);
 
     const g = svg
-      .attr('width', width)
+      .attr('width', computedWidth)
       .attr('height', height)
       .append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
@@ -72,10 +77,25 @@ export function Histogram({
       .attr('y', (d) => yScale(d.length))
       .attr('height', (d) => innerHeight - yScale(d.length))
       .attr('fill', color)
-      .attr('opacity', 0.8)
-      .attr('class', 'group hover:opacity-100 cursor-pointer transition-opacity')
-      .append('title')
-      .text((d) => `Count: ${d.length}`);
+      .attr('opacity', 0.9)
+      .attr('class', 'group cursor-pointer transition-opacity')
+      .on('mouseenter', function (event, d) {
+        d3.select(this).attr('opacity', 1).attr('stroke', 'rgba(0,0,0,0.06)').attr('stroke-width', 1);
+        const tooltip = tooltipRef.current;
+        if (tooltip && wrapperRef.current) {
+          tooltip.style.opacity = '1';
+          const rect = wrapperRef.current.getBoundingClientRect();
+          const x = xScale(d.x0!) + (xScale(d.x1!) - xScale(d.x0!)) / 2;
+          tooltip.style.left = `${rect.left + margin.left + x}px`;
+          tooltip.style.top = `${rect.top + margin.top + yScale(d.length)}px`;
+          tooltip.innerHTML = `Count: <strong>${d.length}</strong>`;
+        }
+      })
+      .on('mouseleave', function () {
+        d3.select(this).attr('opacity', 0.9).attr('stroke', null);
+        const tooltip = tooltipRef.current;
+        if (tooltip) tooltip.style.opacity = '0';
+      });
 
     // X axis
     g.append('g')
@@ -87,12 +107,15 @@ export function Histogram({
     g.append('g')
       .call(d3.axisLeft(yScale).ticks(5))
       .style('color', 'var(--text-muted)');
-  }, [data, width, height, bins, color]);
+  }, [data, computedWidth, height, bins, color]);
 
   return (
-    <div className="bento-item">
+    <div className="bento-item" ref={wrapperRef}>
       {title && <h3 className="text-lg font-semibold mb-4">{title}</h3>}
-      <svg ref={svgRef} />
+      <div style={{ position: 'relative' }}>
+        <svg ref={svgRef} />
+        <div ref={tooltipRef} className="chart-tooltip" style={{ opacity: 0 }} />
+      </div>
     </div>
   );
 }

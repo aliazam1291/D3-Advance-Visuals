@@ -1,0 +1,68 @@
+[
+  {
+    "month": "2025-08",
+    "byStage": {
+      "lead": 613,
+      "qualified": 473,
+      "proposal": 610,
+      "negotiation": 1046,
+      "won": 835,
+      "lost": 382
+    }
+  },
+  {
+    "month": "2025-09",
+    "byStage": {
+      "lead": 737,
+      "qualified": 335,
+      "proposal": 567,
+      "negotiation": 909,
+      "won": 326,
+      "lost": 147
+    }
+  },
+  {
+    "month": "2025-10",
+    "byStage": {
+      "lead": 1061,
+      "qualified": 358,
+      "proposal": 687,
+      "negotiation": 343,
+      "won": 806,
+      "lost": 245
+    }
+  },
+  {
+    "month": "2025-11",
+    "byStage": {
+      "lead": 143,
+      "qualified": 526,
+      "proposal": 959,
+      "negotiation": 637,
+      "won": 107,
+      "lost": 589
+    }
+  },
+  {
+    "month": "2025-12",
+    "byStage": {
+      "lead": 777,
+      "qualified": 1035,
+      "proposal": 379,
+      "negotiation": 107,
+      "won": 837,
+      "lost": 463
+    }
+  },
+  {
+    "month": "2026-01",
+    "byStage": {
+      "lead": 846,
+      "qualified": 552,
+      "proposal": 382,
+      "negotiation": 136,
+      "won": 623,
+      "lost": 555
+    }
+  }
+]

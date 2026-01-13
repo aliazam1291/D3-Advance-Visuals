@@ -1,0 +1,2472 @@
+{
+  "platforms": {
+    "instagram": [
+      {
+        "date": "2025-09-16",
+        "followers": 46869,
+        "reach": 31716,
+        "engagement": 3.52
+      },
+      {
+        "date": "2025-09-17",
+        "followers": 47185,
+        "reach": 19443,
+        "engagement": 0.77
+      },
+      {
+        "date": "2025-09-18",
+        "followers": 47130,
+        "reach": 57899,
+        "engagement": 3.03
+      },
+      {
+        "date": "2025-09-19",
+        "followers": 47334,
+        "reach": 17689,
+        "engagement": 3.95
+      },
+      {
+        "date": "2025-09-20",
+        "followers": 47652,
+        "reach": 31131,
+        "engagement": 7.15
+      },
+      {
+        "date": "2025-09-21",
+        "followers": 47598,
+        "reach": 16057,
+        "engagement": 1.59
+      },
+      {
+        "date": "2025-09-22",
+        "followers": 47853,
+        "reach": 66342,
+        "engagement": 4.09
+      },
+      {
+        "date": "2025-09-23",
+        "followers": 48068,
+        "reach": 40797,
+        "engagement": 1.26
+      },
+      {
+        "date": "2025-09-24",
+        "followers": 48338,
+        "reach": 22698,
+        "engagement": 3.44
+      },
+      {
+        "date": "2025-09-25",
+        "followers": 48277,
+        "reach": 25447,
+        "engagement": 0.31
+      },
+      {
+        "date": "2025-09-26",
+        "followers": 48216,
+        "reach": 26819,
+        "engagement": 4.4
+      },
+      {
+        "date": "2025-09-27",
+        "followers": 48156,
+        "reach": 56569,
+        "engagement": 1.88
+      },
+      {
+        "date": "2025-09-28",
+        "followers": 48144,
+        "reach": 73582,
+        "engagement": 0.73
+      },
+      {
+        "date": "2025-09-29",
+        "followers": 48398,
+        "reach": 55619,
+        "engagement": 2.55
+      },
+      {
+        "date": "2025-09-30",
+        "followers": 48690,
+        "reach": 63246,
+        "engagement": 5.63
+      },
+      {
+        "date": "2025-10-01",
+        "followers": 48982,
+        "reach": 54170,
+        "engagement": 4.86
+      },
+      {
+        "date": "2025-10-02",
+        "followers": 49351,
+        "reach": 39822,
+        "engagement": 1.86
+      },
+      {
+        "date": "2025-10-03",
+        "followers": 49443,
+        "reach": 57765,
+        "engagement": 1.98
+      },
+      {
+        "date": "2025-10-04",
+        "followers": 49346,
+        "reach": 65711,
+        "engagement": 7.19
+      },
+      {
+        "date": "2025-10-05",
+        "followers": 49331,
+        "reach": 38974,
+        "engagement": 7.19
+      },
+      {
+        "date": "2025-10-06",
+        "followers": 49238,
+        "reach": 40315,
+        "engagement": 1.16
+      },
+      {
+        "date": "2025-10-07",
+        "followers": 49584,
+        "reach": 5112,
+        "engagement": 7.85
+      },
+      {
+        "date": "2025-10-08",
+        "followers": 49840,
+        "reach": 71657,
+        "engagement": 2.61
+      },
+      {
+        "date": "2025-10-09",
+        "followers": 50108,
+        "reach": 66361,
+        "engagement": 6.07
+      },
+      {
+        "date": "2025-10-10",
+        "followers": 50429,
+        "reach": 10777,
+        "engagement": 2.32
+      },
+      {
+        "date": "2025-10-11",
+        "followers": 50679,
+        "reach": 23390,
+        "engagement": 7.1
+      },
+      {
+        "date": "2025-10-12",
+        "followers": 50949,
+        "reach": 57768,
+        "engagement": 7.31
+      },
+      {
+        "date": "2025-10-13",
+        "followers": 51244,
+        "reach": 57870,
+        "engagement": 7.99
+      },
+      {
+        "date": "2025-10-14",
+        "followers": 51634,
+        "reach": 17486,
+        "engagement": 3.46
+      },
+      {
+        "date": "2025-10-15",
+        "followers": 51632,
+        "reach": 3666,
+        "engagement": 5.72
+      },
+      {
+        "date": "2025-10-16",
+        "followers": 51577,
+        "reach": 21365,
+        "engagement": 3.05
+      },
+      {
+        "date": "2025-10-17",
+        "followers": 51524,
+        "reach": 35764,
+        "engagement": 4.38
+      },
+      {
+        "date": "2025-10-18",
+        "followers": 51807,
+        "reach": 40557,
+        "engagement": 4.99
+      },
+      {
+        "date": "2025-10-19",
+        "followers": 51932,
+        "reach": 46948,
+        "engagement": 6.64
+      },
+      {
+        "date": "2025-10-20",
+        "followers": 52270,
+        "reach": 48401,
+        "engagement": 6.36
+      },
+      {
+        "date": "2025-10-21",
+        "followers": 52299,
+        "reach": 18159,
+        "engagement": 0.26
+      },
+      {
+        "date": "2025-10-22",
+        "followers": 52587,
+        "reach": 76257,
+        "engagement": 7.71
+      },
+      {
+        "date": "2025-10-23",
+        "followers": 52544,
+        "reach": 56218,
+        "engagement": 2.17
+      },
+      {
+        "date": "2025-10-24",
+        "followers": 52943,
+        "reach": 41769,
+        "engagement": 3.95
+      },
+      {
+        "date": "2025-10-25",
+        "followers": 52981,
+        "reach": 20057,
+        "engagement": 4.9
+      },
+      {
+        "date": "2025-10-26",
+        "followers": 52908,
+        "reach": 24132,
+        "engagement": 0.07
+      },
+      {
+        "date": "2025-10-27",
+        "followers": 53015,
+        "reach": 67515,
+        "engagement": 2.35
+      },
+      {
+        "date": "2025-10-28",
+        "followers": 53006,
+        "reach": 64176,
+        "engagement": 6.33
+      },
+      {
+        "date": "2025-10-29",
+        "followers": 52961,
+        "reach": 30276,
+        "engagement": 1.29
+      },
+      {
+        "date": "2025-10-30",
+        "followers": 52871,
+        "reach": 54114,
+        "engagement": 2.4
+      },
+      {
+        "date": "2025-10-31",
+        "followers": 53258,
+        "reach": 37295,
+        "engagement": 3.84
+      },
+      {
+        "date": "2025-11-01",
+        "followers": 55228,
+        "reach": 60050,
+        "engagement": 3.73
+      },
+      {
+        "date": "2025-11-02",
+        "followers": 55197,
+        "reach": 36659,
+        "engagement": 6.79
+      },
+      {
+        "date": "2025-11-03",
+        "followers": 55302,
+        "reach": 12257,
+        "engagement": 4.79
+      },
+      {
+        "date": "2025-11-04",
+        "followers": 55587,
+        "reach": 81198,
+        "engagement": 1.46
+      },
+      {
+        "date": "2025-11-05",
+        "followers": 55885,
+        "reach": 3589,
+        "engagement": 5.48
+      },
+      {
+        "date": "2025-11-06",
+        "followers": 55828,
+        "reach": 32448,
+        "engagement": 5.05
+      },
+      {
+        "date": "2025-11-07",
+        "followers": 55921,
+        "reach": 26470,
+        "engagement": 1.6
+      },
+      {
+        "date": "2025-11-08",
+        "followers": 55999,
+        "reach": 60933,
+        "engagement": 2.42
+      },
+      {
+        "date": "2025-11-09",
+        "followers": 56115,
+        "reach": 12271,
+        "engagement": 0.99
+      },
+      {
+        "date": "2025-11-10",
+        "followers": 56075,
+        "reach": 29874,
+        "engagement": 6.99
+      },
+      {
+        "date": "2025-11-11",
+        "followers": 55976,
+        "reach": 14180,
+        "engagement": 3.41
+      },
+      {
+        "date": "2025-11-12",
+        "followers": 56287,
+        "reach": 76142,
+        "engagement": 2.19
+      },
+      {
+        "date": "2025-11-13",
+        "followers": 56510,
+        "reach": 81624,
+        "engagement": 6.05
+      },
+      {
+        "date": "2025-11-14",
+        "followers": 56902,
+        "reach": 79795,
+        "engagement": 0.7
+      },
+      {
+        "date": "2025-11-15",
+        "followers": 56999,
+        "reach": 52765,
+        "engagement": 0.82
+      },
+      {
+        "date": "2025-11-16",
+        "followers": 57059,
+        "reach": 14368,
+        "engagement": 3.13
+      },
+      {
+        "date": "2025-11-17",
+        "followers": 57106,
+        "reach": 5699,
+        "engagement": 6.38
+      },
+      {
+        "date": "2025-11-18",
+        "followers": 57090,
+        "reach": 45132,
+        "engagement": 6.57
+      },
+      {
+        "date": "2025-11-19",
+        "followers": 57091,
+        "reach": 80945,
+        "engagement": 4.02
+      },
+      {
+        "date": "2025-11-20",
+        "followers": 57081,
+        "reach": 47729,
+        "engagement": 3.46
+      },
+      {
+        "date": "2025-11-21",
+        "followers": 56979,
+        "reach": 17128,
+        "engagement": 6.62
+      },
+      {
+        "date": "2025-11-22",
+        "followers": 58408,
+        "reach": 68411,
+        "engagement": 2.63
+      },
+      {
+        "date": "2025-11-23",
+        "followers": 58640,
+        "reach": 68308,
+        "engagement": 2.05
+      },
+      {
+        "date": "2025-11-24",
+        "followers": 58797,
+        "reach": 73960,
+        "engagement": 6.34
+      },
+      {
+        "date": "2025-11-25",
+        "followers": 58846,
+        "reach": 27323,
+        "engagement": 4.55
+      },
+      {
+        "date": "2025-11-26",
+        "followers": 59082,
+        "reach": 32081,
+        "engagement": 5.64
+      },
+      {
+        "date": "2025-11-27",
+        "followers": 59099,
+        "reach": 68800,
+        "engagement": 0.59
+      },
+      {
+        "date": "2025-11-28",
+        "followers": 59156,
+        "reach": 54323,
+        "engagement": 7.44
+      },
+      {
+        "date": "2025-11-29",
+        "followers": 59560,
+        "reach": 81729,
+        "engagement": 3.79
+      },
+      {
+        "date": "2025-11-30",
+        "followers": 59932,
+        "reach": 29254,
+        "engagement": 3.31
+      },
+      {
+        "date": "2025-12-01",
+        "followers": 60302,
+        "reach": 9829,
+        "engagement": 1.93
+      },
+      {
+        "date": "2025-12-02",
+        "followers": 60204,
+        "reach": 66050,
+        "engagement": 4.19
+      },
+      {
+        "date": "2025-12-03",
+        "followers": 60442,
+        "reach": 75079,
+        "engagement": 5.52
+      },
+      {
+        "date": "2025-12-04",
+        "followers": 60353,
+        "reach": 18462,
+        "engagement": 2.15
+      },
+      {
+        "date": "2025-12-05",
+        "followers": 60380,
+        "reach": 41338,
+        "engagement": 1.56
+      },
+      {
+        "date": "2025-12-06",
+        "followers": 60753,
+        "reach": 77663,
+        "engagement": 0.49
+      },
+      {
+        "date": "2025-12-07",
+        "followers": 60712,
+        "reach": 47698,
+        "engagement": 7.44
+      },
+      {
+        "date": "2025-12-08",
+        "followers": 61021,
+        "reach": 29208,
+        "engagement": 2.08
+      },
+      {
+        "date": "2025-12-09",
+        "followers": 61291,
+        "reach": 50563,
+        "engagement": 6.46
+      },
+      {
+        "date": "2025-12-10",
+        "followers": 61710,
+        "reach": 45569,
+        "engagement": 0.28
+      },
+      {
+        "date": "2025-12-11",
+        "followers": 62169,
+        "reach": 60819,
+        "engagement": 2.47
+      },
+      {
+        "date": "2025-12-12",
+        "followers": 62126,
+        "reach": 6403,
+        "engagement": 0.79
+      },
+      {
+        "date": "2025-12-13",
+        "followers": 62015,
+        "reach": 56396,
+        "engagement": 5.24
+      },
+      {
+        "date": "2025-12-14",
+        "followers": 62022,
+        "reach": 44906,
+        "engagement": 6.37
+      },
+      {
+        "date": "2025-12-15",
+        "followers": 62224,
+        "reach": 75738,
+        "engagement": 2.85
+      },
+      {
+        "date": "2025-12-16",
+        "followers": 62664,
+        "reach": 74938,
+        "engagement": 2.37
+      },
+      {
+        "date": "2025-12-17",
+        "followers": 62720,
+        "reach": 23900,
+        "engagement": 5.04
+      },
+      {
+        "date": "2025-12-18",
+        "followers": 62866,
+        "reach": 24031,
+        "engagement": 1.08
+      },
+      {
+        "date": "2025-12-19",
+        "followers": 62982,
+        "reach": 32981,
+        "engagement": 7.75
+      },
+      {
+        "date": "2025-12-20",
+        "followers": 63344,
+        "reach": 15704,
+        "engagement": 7.06
+      },
+      {
+        "date": "2025-12-21",
+        "followers": 63851,
+        "reach": 68601,
+        "engagement": 1.09
+      },
+      {
+        "date": "2025-12-22",
+        "followers": 64033,
+        "reach": 56430,
+        "engagement": 5.21
+      },
+      {
+        "date": "2025-12-23",
+        "followers": 64375,
+        "reach": 5143,
+        "engagement": 5.08
+      },
+      {
+        "date": "2025-12-24",
+        "followers": 64276,
+        "reach": 45571,
+        "engagement": 0.94
+      },
+      {
+        "date": "2025-12-25",
+        "followers": 64578,
+        "reach": 24308,
+        "engagement": 7.4
+      },
+      {
+        "date": "2025-12-26",
+        "followers": 64453,
+        "reach": 9784,
+        "engagement": 5.37
+      },
+      {
+        "date": "2025-12-27",
+        "followers": 64475,
+        "reach": 20755,
+        "engagement": 1.98
+      },
+      {
+        "date": "2025-12-28",
+        "followers": 64554,
+        "reach": 8265,
+        "engagement": 6
+      },
+      {
+        "date": "2025-12-29",
+        "followers": 64575,
+        "reach": 77596,
+        "engagement": 1.95
+      },
+      {
+        "date": "2025-12-30",
+        "followers": 64859,
+        "reach": 54264,
+        "engagement": 3.67
+      },
+      {
+        "date": "2025-12-31",
+        "followers": 65310,
+        "reach": 46643,
+        "engagement": 7.8
+      },
+      {
+        "date": "2026-01-01",
+        "followers": 65490,
+        "reach": 70619,
+        "engagement": 4.07
+      },
+      {
+        "date": "2026-01-02",
+        "followers": 65804,
+        "reach": 36163,
+        "engagement": 6.42
+      },
+      {
+        "date": "2026-01-03",
+        "followers": 66155,
+        "reach": 15270,
+        "engagement": 0.67
+      },
+      {
+        "date": "2026-01-04",
+        "followers": 66450,
+        "reach": 12709,
+        "engagement": 1.11
+      },
+      {
+        "date": "2026-01-05",
+        "followers": 66332,
+        "reach": 57788,
+        "engagement": 6.73
+      },
+      {
+        "date": "2026-01-06",
+        "followers": 66311,
+        "reach": 6815,
+        "engagement": 5.75
+      },
+      {
+        "date": "2026-01-07",
+        "followers": 66351,
+        "reach": 79470,
+        "engagement": 2.24
+      },
+      {
+        "date": "2026-01-08",
+        "followers": 66383,
+        "reach": 78258,
+        "engagement": 5.88
+      },
+      {
+        "date": "2026-01-09",
+        "followers": 66891,
+        "reach": 56318,
+        "engagement": 6.88
+      },
+      {
+        "date": "2026-01-10",
+        "followers": 66972,
+        "reach": 39393,
+        "engagement": 1.06
+      },
+      {
+        "date": "2026-01-11",
+        "followers": 67313,
+        "reach": 68777,
+        "engagement": 2.56
+      },
+      {
+        "date": "2026-01-12",
+        "followers": 67315,
+        "reach": 76040,
+        "engagement": 5.06
+      },
+      {
+        "date": "2026-01-13",
+        "followers": 67482,
+        "reach": 4202,
+        "engagement": 2.88
+      }
+    ],
+    "twitter": [
+      {
+        "date": "2025-09-16",
+        "followers": 73319,
+        "reach": 76650,
+        "engagement": 4.23
+      },
+      {
+        "date": "2025-09-17",
+        "followers": 73567,
+        "reach": 66992,
+        "engagement": 3.97
+      },
+      {
+        "date": "2025-09-18",
+        "followers": 73995,
+        "reach": 53844,
+        "engagement": 6.95
+      },
+      {
+        "date": "2025-09-19",
+        "followers": 74234,
+        "reach": 16938,
+        "engagement": 7
+      },
+      {
+        "date": "2025-09-20",
+        "followers": 74276,
+        "reach": 75247,
+        "engagement": 2
+      },
+      {
+        "date": "2025-09-21",
+        "followers": 74689,
+        "reach": 66854,
+        "engagement": 4.46
+      },
+      {
+        "date": "2025-09-22",
+        "followers": 74967,
+        "reach": 13961,
+        "engagement": 3.37
+      },
+      {
+        "date": "2025-09-23",
+        "followers": 75432,
+        "reach": 81563,
+        "engagement": 6.33
+      },
+      {
+        "date": "2025-09-24",
+        "followers": 75673,
+        "reach": 65308,
+        "engagement": 3.22
+      },
+      {
+        "date": "2025-09-25",
+        "followers": 76100,
+        "reach": 8151,
+        "engagement": 1.23
+      },
+      {
+        "date": "2025-09-26",
+        "followers": 76169,
+        "reach": 59354,
+        "engagement": 0.62
+      },
+      {
+        "date": "2025-09-27",
+        "followers": 76405,
+        "reach": 9931,
+        "engagement": 5.98
+      },
+      {
+        "date": "2025-09-28",
+        "followers": 76835,
+        "reach": 73593,
+        "engagement": 2.98
+      },
+      {
+        "date": "2025-09-29",
+        "followers": 77040,
+        "reach": 58155,
+        "engagement": 7.31
+      },
+      {
+        "date": "2025-09-30",
+        "followers": 77466,
+        "reach": 24317,
+        "engagement": 6.17
+      },
+      {
+        "date": "2025-10-01",
+        "followers": 77839,
+        "reach": 70971,
+        "engagement": 6.2
+      },
+      {
+        "date": "2025-10-02",
+        "followers": 77951,
+        "reach": 49727,
+        "engagement": 4.08
+      },
+      {
+        "date": "2025-10-03",
+        "followers": 78142,
+        "reach": 52165,
+        "engagement": 3.73
+      },
+      {
+        "date": "2025-10-04",
+        "followers": 82513,
+        "reach": 38588,
+        "engagement": 6.88
+      },
+      {
+        "date": "2025-10-05",
+        "followers": 83111,
+        "reach": 81265,
+        "engagement": 7.57
+      },
+      {
+        "date": "2025-10-06",
+        "followers": 83195,
+        "reach": 10616,
+        "engagement": 7.29
+      },
+      {
+        "date": "2025-10-07",
+        "followers": 83243,
+        "reach": 26360,
+        "engagement": 7.31
+      },
+      {
+        "date": "2025-10-08",
+        "followers": 83508,
+        "reach": 18039,
+        "engagement": 0.65
+      },
+      {
+        "date": "2025-10-09",
+        "followers": 83608,
+        "reach": 12447,
+        "engagement": 2.6
+      },
+      {
+        "date": "2025-10-10",
+        "followers": 84054,
+        "reach": 51020,
+        "engagement": 5.85
+      },
+      {
+        "date": "2025-10-11",
+        "followers": 84682,
+        "reach": 39503,
+        "engagement": 0.79
+      },
+      {
+        "date": "2025-10-12",
+        "followers": 85140,
+        "reach": 37444,
+        "engagement": 5.85
+      },
+      {
+        "date": "2025-10-13",
+        "followers": 85636,
+        "reach": 68913,
+        "engagement": 2.02
+      },
+      {
+        "date": "2025-10-14",
+        "followers": 86207,
+        "reach": 34228,
+        "engagement": 6.7
+      },
+      {
+        "date": "2025-10-15",
+        "followers": 86290,
+        "reach": 59248,
+        "engagement": 7.23
+      },
+      {
+        "date": "2025-10-16",
+        "followers": 86927,
+        "reach": 58536,
+        "engagement": 3.25
+      },
+      {
+        "date": "2025-10-17",
+        "followers": 87069,
+        "reach": 14380,
+        "engagement": 2.75
+      },
+      {
+        "date": "2025-10-18",
+        "followers": 87260,
+        "reach": 43139,
+        "engagement": 6.51
+      },
+      {
+        "date": "2025-10-19",
+        "followers": 87218,
+        "reach": 59669,
+        "engagement": 6.6
+      },
+      {
+        "date": "2025-10-20",
+        "followers": 87046,
+        "reach": 24819,
+        "engagement": 6.5
+      },
+      {
+        "date": "2025-10-21",
+        "followers": 87603,
+        "reach": 72420,
+        "engagement": 2.36
+      },
+      {
+        "date": "2025-10-22",
+        "followers": 87955,
+        "reach": 62445,
+        "engagement": 6.14
+      },
+      {
+        "date": "2025-10-23",
+        "followers": 88011,
+        "reach": 80327,
+        "engagement": 0.34
+      },
+      {
+        "date": "2025-10-24",
+        "followers": 88209,
+        "reach": 37590,
+        "engagement": 5.12
+      },
+      {
+        "date": "2025-10-25",
+        "followers": 88318,
+        "reach": 44218,
+        "engagement": 7.29
+      },
+      {
+        "date": "2025-10-26",
+        "followers": 88386,
+        "reach": 79157,
+        "engagement": 0.17
+      },
+      {
+        "date": "2025-10-27",
+        "followers": 88553,
+        "reach": 6670,
+        "engagement": 7.83
+      },
+      {
+        "date": "2025-10-28",
+        "followers": 88459,
+        "reach": 11258,
+        "engagement": 6.03
+      },
+      {
+        "date": "2025-10-29",
+        "followers": 89051,
+        "reach": 11978,
+        "engagement": 7.29
+      },
+      {
+        "date": "2025-10-30",
+        "followers": 89468,
+        "reach": 68858,
+        "engagement": 1.35
+      },
+      {
+        "date": "2025-10-31",
+        "followers": 89330,
+        "reach": 68931,
+        "engagement": 7.05
+      },
+      {
+        "date": "2025-11-01",
+        "followers": 89809,
+        "reach": 14816,
+        "engagement": 1.07
+      },
+      {
+        "date": "2025-11-02",
+        "followers": 90393,
+        "reach": 51854,
+        "engagement": 1.43
+      },
+      {
+        "date": "2025-11-03",
+        "followers": 95170,
+        "reach": 57505,
+        "engagement": 6.7
+      },
+      {
+        "date": "2025-11-04",
+        "followers": 95796,
+        "reach": 25230,
+        "engagement": 7.85
+      },
+      {
+        "date": "2025-11-05",
+        "followers": 95614,
+        "reach": 11796,
+        "engagement": 3.09
+      },
+      {
+        "date": "2025-11-06",
+        "followers": 95453,
+        "reach": 26187,
+        "engagement": 2.97
+      },
+      {
+        "date": "2025-11-07",
+        "followers": 95945,
+        "reach": 41813,
+        "engagement": 6.29
+      },
+      {
+        "date": "2025-11-08",
+        "followers": 96049,
+        "reach": 63348,
+        "engagement": 0.89
+      },
+      {
+        "date": "2025-11-09",
+        "followers": 96138,
+        "reach": 71163,
+        "engagement": 3.21
+      },
+      {
+        "date": "2025-11-10",
+        "followers": 99142,
+        "reach": 17816,
+        "engagement": 3.75
+      },
+      {
+        "date": "2025-11-11",
+        "followers": 99630,
+        "reach": 31376,
+        "engagement": 5.29
+      },
+      {
+        "date": "2025-11-12",
+        "followers": 101347,
+        "reach": 61563,
+        "engagement": 5.41
+      },
+      {
+        "date": "2025-11-13",
+        "followers": 101872,
+        "reach": 81116,
+        "engagement": 0.89
+      },
+      {
+        "date": "2025-11-14",
+        "followers": 102188,
+        "reach": 10610,
+        "engagement": 0.32
+      },
+      {
+        "date": "2025-11-15",
+        "followers": 102356,
+        "reach": 47160,
+        "engagement": 0.81
+      },
+      {
+        "date": "2025-11-16",
+        "followers": 102862,
+        "reach": 21051,
+        "engagement": 4.78
+      },
+      {
+        "date": "2025-11-17",
+        "followers": 102997,
+        "reach": 70841,
+        "engagement": 4.97
+      },
+      {
+        "date": "2025-11-18",
+        "followers": 102996,
+        "reach": 15192,
+        "engagement": 2.05
+      },
+      {
+        "date": "2025-11-19",
+        "followers": 103720,
+        "reach": 7927,
+        "engagement": 3.15
+      },
+      {
+        "date": "2025-11-20",
+        "followers": 104220,
+        "reach": 5941,
+        "engagement": 3.66
+      },
+      {
+        "date": "2025-11-21",
+        "followers": 104138,
+        "reach": 25668,
+        "engagement": 5.67
+      },
+      {
+        "date": "2025-11-22",
+        "followers": 104578,
+        "reach": 47335,
+        "engagement": 0.39
+      },
+      {
+        "date": "2025-11-23",
+        "followers": 105151,
+        "reach": 10096,
+        "engagement": 1.67
+      },
+      {
+        "date": "2025-11-24",
+        "followers": 105797,
+        "reach": 43150,
+        "engagement": 5.53
+      },
+      {
+        "date": "2025-11-25",
+        "followers": 106159,
+        "reach": 12002,
+        "engagement": 1.51
+      },
+      {
+        "date": "2025-11-26",
+        "followers": 106161,
+        "reach": 23380,
+        "engagement": 1.95
+      },
+      {
+        "date": "2025-11-27",
+        "followers": 106367,
+        "reach": 4352,
+        "engagement": 3.55
+      },
+      {
+        "date": "2025-11-28",
+        "followers": 106908,
+        "reach": 19893,
+        "engagement": 3.08
+      },
+      {
+        "date": "2025-11-29",
+        "followers": 107021,
+        "reach": 34484,
+        "engagement": 0.29
+      },
+      {
+        "date": "2025-11-30",
+        "followers": 107367,
+        "reach": 58030,
+        "engagement": 6.08
+      },
+      {
+        "date": "2025-12-01",
+        "followers": 107589,
+        "reach": 38485,
+        "engagement": 5.7
+      },
+      {
+        "date": "2025-12-02",
+        "followers": 107673,
+        "reach": 49956,
+        "engagement": 2.64
+      },
+      {
+        "date": "2025-12-03",
+        "followers": 108396,
+        "reach": 54521,
+        "engagement": 6.1
+      },
+      {
+        "date": "2025-12-04",
+        "followers": 108933,
+        "reach": 58280,
+        "engagement": 1.85
+      },
+      {
+        "date": "2025-12-05",
+        "followers": 109258,
+        "reach": 72584,
+        "engagement": 4.1
+      },
+      {
+        "date": "2025-12-06",
+        "followers": 109147,
+        "reach": 6912,
+        "engagement": 7.25
+      },
+      {
+        "date": "2025-12-07",
+        "followers": 109233,
+        "reach": 79016,
+        "engagement": 2.97
+      },
+      {
+        "date": "2025-12-08",
+        "followers": 110045,
+        "reach": 27500,
+        "engagement": 6.25
+      },
+      {
+        "date": "2025-12-09",
+        "followers": 110147,
+        "reach": 36568,
+        "engagement": 0.93
+      },
+      {
+        "date": "2025-12-10",
+        "followers": 110582,
+        "reach": 51141,
+        "engagement": 7.91
+      },
+      {
+        "date": "2025-12-11",
+        "followers": 110668,
+        "reach": 78831,
+        "engagement": 7.62
+      },
+      {
+        "date": "2025-12-12",
+        "followers": 110889,
+        "reach": 41686,
+        "engagement": 7.52
+      },
+      {
+        "date": "2025-12-13",
+        "followers": 111110,
+        "reach": 63863,
+        "engagement": 5.04
+      },
+      {
+        "date": "2025-12-14",
+        "followers": 111862,
+        "reach": 27374,
+        "engagement": 6.9
+      },
+      {
+        "date": "2025-12-15",
+        "followers": 112723,
+        "reach": 40478,
+        "engagement": 7.62
+      },
+      {
+        "date": "2025-12-16",
+        "followers": 113164,
+        "reach": 63796,
+        "engagement": 7.51
+      },
+      {
+        "date": "2025-12-17",
+        "followers": 116197,
+        "reach": 32664,
+        "engagement": 2.11
+      },
+      {
+        "date": "2025-12-18",
+        "followers": 115965,
+        "reach": 51694,
+        "engagement": 0.24
+      },
+      {
+        "date": "2025-12-19",
+        "followers": 116374,
+        "reach": 16555,
+        "engagement": 1.04
+      },
+      {
+        "date": "2025-12-20",
+        "followers": 116337,
+        "reach": 38140,
+        "engagement": 7.81
+      },
+      {
+        "date": "2025-12-21",
+        "followers": 116119,
+        "reach": 36375,
+        "engagement": 7.37
+      },
+      {
+        "date": "2025-12-22",
+        "followers": 116654,
+        "reach": 36080,
+        "engagement": 8
+      },
+      {
+        "date": "2025-12-23",
+        "followers": 117030,
+        "reach": 67837,
+        "engagement": 0.21
+      },
+      {
+        "date": "2025-12-24",
+        "followers": 117617,
+        "reach": 29772,
+        "engagement": 6.39
+      },
+      {
+        "date": "2025-12-25",
+        "followers": 118162,
+        "reach": 18507,
+        "engagement": 4.2
+      },
+      {
+        "date": "2025-12-26",
+        "followers": 118206,
+        "reach": 76976,
+        "engagement": 3.32
+      },
+      {
+        "date": "2025-12-27",
+        "followers": 118894,
+        "reach": 81324,
+        "engagement": 5.55
+      },
+      {
+        "date": "2025-12-28",
+        "followers": 119356,
+        "reach": 73715,
+        "engagement": 6.48
+      },
+      {
+        "date": "2025-12-29",
+        "followers": 119274,
+        "reach": 26579,
+        "engagement": 6.47
+      },
+      {
+        "date": "2025-12-30",
+        "followers": 119352,
+        "reach": 70808,
+        "engagement": 6.74
+      },
+      {
+        "date": "2025-12-31",
+        "followers": 120148,
+        "reach": 46012,
+        "engagement": 6.79
+      },
+      {
+        "date": "2026-01-01",
+        "followers": 120087,
+        "reach": 8826,
+        "engagement": 3.9
+      },
+      {
+        "date": "2026-01-02",
+        "followers": 120875,
+        "reach": 61395,
+        "engagement": 3.62
+      },
+      {
+        "date": "2026-01-03",
+        "followers": 120775,
+        "reach": 3376,
+        "engagement": 5.39
+      },
+      {
+        "date": "2026-01-04",
+        "followers": 120969,
+        "reach": 76866,
+        "engagement": 6.27
+      },
+      {
+        "date": "2026-01-05",
+        "followers": 120780,
+        "reach": 31247,
+        "engagement": 5.52
+      },
+      {
+        "date": "2026-01-06",
+        "followers": 120764,
+        "reach": 66377,
+        "engagement": 7.1
+      },
+      {
+        "date": "2026-01-07",
+        "followers": 121600,
+        "reach": 54081,
+        "engagement": 3.86
+      },
+      {
+        "date": "2026-01-08",
+        "followers": 122204,
+        "reach": 35827,
+        "engagement": 7.63
+      },
+      {
+        "date": "2026-01-09",
+        "followers": 122785,
+        "reach": 69250,
+        "engagement": 7.83
+      },
+      {
+        "date": "2026-01-10",
+        "followers": 123119,
+        "reach": 21139,
+        "engagement": 6.48
+      },
+      {
+        "date": "2026-01-11",
+        "followers": 122906,
+        "reach": 35526,
+        "engagement": 7.21
+      },
+      {
+        "date": "2026-01-12",
+        "followers": 123733,
+        "reach": 32707,
+        "engagement": 4.64
+      },
+      {
+        "date": "2026-01-13",
+        "followers": 123636,
+        "reach": 23782,
+        "engagement": 3.38
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2025-09-16",
+        "followers": 32925,
+        "reach": 6806,
+        "engagement": 4.99
+      },
+      {
+        "date": "2025-09-17",
+        "followers": 32994,
+        "reach": 42996,
+        "engagement": 1.76
+      },
+      {
+        "date": "2025-09-18",
+        "followers": 33005,
+        "reach": 63212,
+        "engagement": 2.29
+      },
+      {
+        "date": "2025-09-19",
+        "followers": 32949,
+        "reach": 50173,
+        "engagement": 2.27
+      },
+      {
+        "date": "2025-09-20",
+        "followers": 32946,
+        "reach": 21407,
+        "engagement": 0.68
+      },
+      {
+        "date": "2025-09-21",
+        "followers": 32895,
+        "reach": 73977,
+        "engagement": 7.07
+      },
+      {
+        "date": "2025-09-22",
+        "followers": 32955,
+        "reach": 60501,
+        "engagement": 4.4
+      },
+      {
+        "date": "2025-09-23",
+        "followers": 33121,
+        "reach": 73523,
+        "engagement": 1.57
+      },
+      {
+        "date": "2025-09-24",
+        "followers": 33075,
+        "reach": 53916,
+        "engagement": 7.81
+      },
+      {
+        "date": "2025-09-25",
+        "followers": 33054,
+        "reach": 78718,
+        "engagement": 3.1
+      },
+      {
+        "date": "2025-09-26",
+        "followers": 33067,
+        "reach": 32423,
+        "engagement": 2.76
+      },
+      {
+        "date": "2025-09-27",
+        "followers": 33324,
+        "reach": 39830,
+        "engagement": 3.57
+      },
+      {
+        "date": "2025-09-28",
+        "followers": 33498,
+        "reach": 75577,
+        "engagement": 7.83
+      },
+      {
+        "date": "2025-09-29",
+        "followers": 33466,
+        "reach": 7133,
+        "engagement": 5.55
+      },
+      {
+        "date": "2025-09-30",
+        "followers": 33642,
+        "reach": 18352,
+        "engagement": 0.71
+      },
+      {
+        "date": "2025-10-01",
+        "followers": 33789,
+        "reach": 34067,
+        "engagement": 3.14
+      },
+      {
+        "date": "2025-10-02",
+        "followers": 33788,
+        "reach": 3770,
+        "engagement": 3.33
+      },
+      {
+        "date": "2025-10-03",
+        "followers": 34626,
+        "reach": 9420,
+        "engagement": 5.87
+      },
+      {
+        "date": "2025-10-04",
+        "followers": 34563,
+        "reach": 59486,
+        "engagement": 4.99
+      },
+      {
+        "date": "2025-10-05",
+        "followers": 34816,
+        "reach": 24784,
+        "engagement": 0.59
+      },
+      {
+        "date": "2025-10-06",
+        "followers": 34849,
+        "reach": 75937,
+        "engagement": 3.6
+      },
+      {
+        "date": "2025-10-07",
+        "followers": 35051,
+        "reach": 46954,
+        "engagement": 3.57
+      },
+      {
+        "date": "2025-10-08",
+        "followers": 35292,
+        "reach": 56631,
+        "engagement": 0.79
+      },
+      {
+        "date": "2025-10-09",
+        "followers": 35519,
+        "reach": 6488,
+        "engagement": 0.26
+      },
+      {
+        "date": "2025-10-10",
+        "followers": 35584,
+        "reach": 30769,
+        "engagement": 1.23
+      },
+      {
+        "date": "2025-10-11",
+        "followers": 35832,
+        "reach": 41489,
+        "engagement": 2.93
+      },
+      {
+        "date": "2025-10-12",
+        "followers": 35985,
+        "reach": 55066,
+        "engagement": 5.53
+      },
+      {
+        "date": "2025-10-13",
+        "followers": 36166,
+        "reach": 44358,
+        "engagement": 6.5
+      },
+      {
+        "date": "2025-10-14",
+        "followers": 36139,
+        "reach": 57371,
+        "engagement": 4.02
+      },
+      {
+        "date": "2025-10-15",
+        "followers": 36121,
+        "reach": 66002,
+        "engagement": 7.53
+      },
+      {
+        "date": "2025-10-16",
+        "followers": 36281,
+        "reach": 57095,
+        "engagement": 6.4
+      },
+      {
+        "date": "2025-10-17",
+        "followers": 36291,
+        "reach": 79488,
+        "engagement": 5.72
+      },
+      {
+        "date": "2025-10-18",
+        "followers": 36510,
+        "reach": 12334,
+        "engagement": 6.81
+      },
+      {
+        "date": "2025-10-19",
+        "followers": 36772,
+        "reach": 73901,
+        "engagement": 7.59
+      },
+      {
+        "date": "2025-10-20",
+        "followers": 36967,
+        "reach": 29615,
+        "engagement": 0.1
+      },
+      {
+        "date": "2025-10-21",
+        "followers": 37223,
+        "reach": 70480,
+        "engagement": 5.18
+      },
+      {
+        "date": "2025-10-22",
+        "followers": 37311,
+        "reach": 40393,
+        "engagement": 3.13
+      },
+      {
+        "date": "2025-10-23",
+        "followers": 37508,
+        "reach": 6297,
+        "engagement": 5.02
+      },
+      {
+        "date": "2025-10-24",
+        "followers": 37664,
+        "reach": 78116,
+        "engagement": 2.41
+      },
+      {
+        "date": "2025-10-25",
+        "followers": 37704,
+        "reach": 48814,
+        "engagement": 6.91
+      },
+      {
+        "date": "2025-10-26",
+        "followers": 37655,
+        "reach": 24584,
+        "engagement": 1.1
+      },
+      {
+        "date": "2025-10-27",
+        "followers": 37874,
+        "reach": 39199,
+        "engagement": 3.13
+      },
+      {
+        "date": "2025-10-28",
+        "followers": 37999,
+        "reach": 27081,
+        "engagement": 7.64
+      },
+      {
+        "date": "2025-10-29",
+        "followers": 38089,
+        "reach": 34995,
+        "engagement": 5.94
+      },
+      {
+        "date": "2025-10-30",
+        "followers": 38217,
+        "reach": 60814,
+        "engagement": 1.28
+      },
+      {
+        "date": "2025-10-31",
+        "followers": 38267,
+        "reach": 9434,
+        "engagement": 1.73
+      },
+      {
+        "date": "2025-11-01",
+        "followers": 38198,
+        "reach": 51112,
+        "engagement": 5.46
+      },
+      {
+        "date": "2025-11-02",
+        "followers": 38374,
+        "reach": 76446,
+        "engagement": 6.61
+      },
+      {
+        "date": "2025-11-03",
+        "followers": 38456,
+        "reach": 33603,
+        "engagement": 2.8
+      },
+      {
+        "date": "2025-11-04",
+        "followers": 38753,
+        "reach": 79299,
+        "engagement": 7.99
+      },
+      {
+        "date": "2025-11-05",
+        "followers": 38975,
+        "reach": 73966,
+        "engagement": 5.49
+      },
+      {
+        "date": "2025-11-06",
+        "followers": 39100,
+        "reach": 60707,
+        "engagement": 2.2
+      },
+      {
+        "date": "2025-11-07",
+        "followers": 39327,
+        "reach": 65911,
+        "engagement": 5.97
+      },
+      {
+        "date": "2025-11-08",
+        "followers": 39641,
+        "reach": 31590,
+        "engagement": 2.72
+      },
+      {
+        "date": "2025-11-09",
+        "followers": 39873,
+        "reach": 46647,
+        "engagement": 0.76
+      },
+      {
+        "date": "2025-11-10",
+        "followers": 39873,
+        "reach": 38908,
+        "engagement": 6.52
+      },
+      {
+        "date": "2025-11-11",
+        "followers": 39842,
+        "reach": 39135,
+        "engagement": 7.98
+      },
+      {
+        "date": "2025-11-12",
+        "followers": 40037,
+        "reach": 77428,
+        "engagement": 0.32
+      },
+      {
+        "date": "2025-11-13",
+        "followers": 39965,
+        "reach": 59076,
+        "engagement": 6.99
+      },
+      {
+        "date": "2025-11-14",
+        "followers": 39972,
+        "reach": 65313,
+        "engagement": 0.34
+      },
+      {
+        "date": "2025-11-15",
+        "followers": 40007,
+        "reach": 45468,
+        "engagement": 1.56
+      },
+      {
+        "date": "2025-11-16",
+        "followers": 40107,
+        "reach": 2789,
+        "engagement": 2.38
+      },
+      {
+        "date": "2025-11-17",
+        "followers": 40270,
+        "reach": 4196,
+        "engagement": 3.78
+      },
+      {
+        "date": "2025-11-18",
+        "followers": 40499,
+        "reach": 48830,
+        "engagement": 1.23
+      },
+      {
+        "date": "2025-11-19",
+        "followers": 40786,
+        "reach": 4012,
+        "engagement": 0.44
+      },
+      {
+        "date": "2025-11-20",
+        "followers": 40996,
+        "reach": 72023,
+        "engagement": 7.25
+      },
+      {
+        "date": "2025-11-21",
+        "followers": 41162,
+        "reach": 18498,
+        "engagement": 7.43
+      },
+      {
+        "date": "2025-11-22",
+        "followers": 41416,
+        "reach": 12408,
+        "engagement": 1.46
+      },
+      {
+        "date": "2025-11-23",
+        "followers": 41501,
+        "reach": 43906,
+        "engagement": 7.59
+      },
+      {
+        "date": "2025-11-24",
+        "followers": 41774,
+        "reach": 80928,
+        "engagement": 6.79
+      },
+      {
+        "date": "2025-11-25",
+        "followers": 41799,
+        "reach": 69568,
+        "engagement": 6.55
+      },
+      {
+        "date": "2025-11-26",
+        "followers": 42126,
+        "reach": 2047,
+        "engagement": 1.14
+      },
+      {
+        "date": "2025-11-27",
+        "followers": 42169,
+        "reach": 56977,
+        "engagement": 2.39
+      },
+      {
+        "date": "2025-11-28",
+        "followers": 46750,
+        "reach": 28348,
+        "engagement": 3.86
+      },
+      {
+        "date": "2025-11-29",
+        "followers": 47037,
+        "reach": 56436,
+        "engagement": 0.56
+      },
+      {
+        "date": "2025-11-30",
+        "followers": 47262,
+        "reach": 13442,
+        "engagement": 2.84
+      },
+      {
+        "date": "2025-12-01",
+        "followers": 47611,
+        "reach": 70935,
+        "engagement": 2.45
+      },
+      {
+        "date": "2025-12-02",
+        "followers": 47544,
+        "reach": 54253,
+        "engagement": 1.13
+      },
+      {
+        "date": "2025-12-03",
+        "followers": 47519,
+        "reach": 36345,
+        "engagement": 1.7
+      },
+      {
+        "date": "2025-12-04",
+        "followers": 48906,
+        "reach": 4461,
+        "engagement": 6.99
+      },
+      {
+        "date": "2025-12-05",
+        "followers": 49058,
+        "reach": 44955,
+        "engagement": 1.29
+      },
+      {
+        "date": "2025-12-06",
+        "followers": 49372,
+        "reach": 78849,
+        "engagement": 3.77
+      },
+      {
+        "date": "2025-12-07",
+        "followers": 49720,
+        "reach": 80246,
+        "engagement": 3.27
+      },
+      {
+        "date": "2025-12-08",
+        "followers": 50003,
+        "reach": 76300,
+        "engagement": 2.32
+      },
+      {
+        "date": "2025-12-09",
+        "followers": 49924,
+        "reach": 47435,
+        "engagement": 4.16
+      },
+      {
+        "date": "2025-12-10",
+        "followers": 50217,
+        "reach": 78608,
+        "engagement": 5.45
+      },
+      {
+        "date": "2025-12-11",
+        "followers": 50355,
+        "reach": 75511,
+        "engagement": 0.86
+      },
+      {
+        "date": "2025-12-12",
+        "followers": 50267,
+        "reach": 50193,
+        "engagement": 0.11
+      },
+      {
+        "date": "2025-12-13",
+        "followers": 50413,
+        "reach": 71887,
+        "engagement": 5.75
+      },
+      {
+        "date": "2025-12-14",
+        "followers": 50776,
+        "reach": 28891,
+        "engagement": 0.66
+      },
+      {
+        "date": "2025-12-15",
+        "followers": 50899,
+        "reach": 48983,
+        "engagement": 0.76
+      },
+      {
+        "date": "2025-12-16",
+        "followers": 51031,
+        "reach": 77964,
+        "engagement": 6.78
+      },
+      {
+        "date": "2025-12-17",
+        "followers": 51139,
+        "reach": 81687,
+        "engagement": 1.14
+      },
+      {
+        "date": "2025-12-18",
+        "followers": 51354,
+        "reach": 45659,
+        "engagement": 1.89
+      },
+      {
+        "date": "2025-12-19",
+        "followers": 51755,
+        "reach": 72948,
+        "engagement": 1.47
+      },
+      {
+        "date": "2025-12-20",
+        "followers": 52150,
+        "reach": 36811,
+        "engagement": 4.66
+      },
+      {
+        "date": "2025-12-21",
+        "followers": 52526,
+        "reach": 79317,
+        "engagement": 5.58
+      },
+      {
+        "date": "2025-12-22",
+        "followers": 52728,
+        "reach": 64453,
+        "engagement": 4.08
+      },
+      {
+        "date": "2025-12-23",
+        "followers": 52915,
+        "reach": 70325,
+        "engagement": 7.73
+      },
+      {
+        "date": "2025-12-24",
+        "followers": 53334,
+        "reach": 19003,
+        "engagement": 6.04
+      },
+      {
+        "date": "2025-12-25",
+        "followers": 53736,
+        "reach": 56991,
+        "engagement": 4.22
+      },
+      {
+        "date": "2025-12-26",
+        "followers": 53904,
+        "reach": 56304,
+        "engagement": 5.69
+      },
+      {
+        "date": "2025-12-27",
+        "followers": 54077,
+        "reach": 70506,
+        "engagement": 2.97
+      },
+      {
+        "date": "2025-12-28",
+        "followers": 54485,
+        "reach": 27007,
+        "engagement": 1.5
+      },
+      {
+        "date": "2025-12-29",
+        "followers": 54639,
+        "reach": 54015,
+        "engagement": 3.21
+      },
+      {
+        "date": "2025-12-30",
+        "followers": 54966,
+        "reach": 40596,
+        "engagement": 0.72
+      },
+      {
+        "date": "2025-12-31",
+        "followers": 55228,
+        "reach": 11738,
+        "engagement": 4.52
+      },
+      {
+        "date": "2026-01-01",
+        "followers": 55210,
+        "reach": 44764,
+        "engagement": 1.95
+      },
+      {
+        "date": "2026-01-02",
+        "followers": 55326,
+        "reach": 38374,
+        "engagement": 3.7
+      },
+      {
+        "date": "2026-01-03",
+        "followers": 55385,
+        "reach": 12204,
+        "engagement": 1.64
+      },
+      {
+        "date": "2026-01-04",
+        "followers": 55279,
+        "reach": 3726,
+        "engagement": 1.68
+      },
+      {
+        "date": "2026-01-05",
+        "followers": 55400,
+        "reach": 30233,
+        "engagement": 5.99
+      },
+      {
+        "date": "2026-01-06",
+        "followers": 55664,
+        "reach": 5270,
+        "engagement": 2.69
+      },
+      {
+        "date": "2026-01-07",
+        "followers": 55649,
+        "reach": 42329,
+        "engagement": 0.64
+      },
+      {
+        "date": "2026-01-08",
+        "followers": 55744,
+        "reach": 17885,
+        "engagement": 6.42
+      },
+      {
+        "date": "2026-01-09",
+        "followers": 55719,
+        "reach": 4655,
+        "engagement": 6.48
+      },
+      {
+        "date": "2026-01-10",
+        "followers": 55646,
+        "reach": 75831,
+        "engagement": 1.81
+      },
+      {
+        "date": "2026-01-11",
+        "followers": 55823,
+        "reach": 56629,
+        "engagement": 2.74
+      },
+      {
+        "date": "2026-01-12",
+        "followers": 55960,
+        "reach": 45558,
+        "engagement": 1.23
+      },
+      {
+        "date": "2026-01-13",
+        "followers": 56339,
+        "reach": 62922,
+        "engagement": 0.52
+      }
+    ]
+  },
+  "campaigns": [
+    {
+      "id": "camp-1",
+      "name": "Campaign 1",
+      "platform": "linkedin",
+      "start": "2025-11-10",
+      "end": "2026-01-07",
+      "impressions": 360374,
+      "clicks": 41914,
+      "conversions": 3591
+    },
+    {
+      "id": "camp-2",
+      "name": "Campaign 2",
+      "platform": "twitter",
+      "start": "2025-11-18",
+      "end": "2026-01-04",
+      "impressions": 637050,
+      "clicks": 38461,
+      "conversions": 9335
+    },
+    {
+      "id": "camp-3",
+      "name": "Campaign 3",
+      "platform": "instagram",
+      "start": "2025-10-16",
+      "end": "2026-01-09",
+      "impressions": 167608,
+      "clicks": 61667,
+      "conversions": 7610
+    },
+    {
+      "id": "camp-4",
+      "name": "Campaign 4",
+      "platform": "linkedin",
+      "start": "2026-01-07",
+      "end": "2026-01-04",
+      "impressions": 58478,
+      "clicks": 34159,
+      "conversions": 2062
+    },
+    {
+      "id": "camp-5",
+      "name": "Campaign 5",
+      "platform": "instagram",
+      "start": "2025-11-27",
+      "end": "2026-01-06",
+      "impressions": 391998,
+      "clicks": 23744,
+      "conversions": 8362
+    },
+    {
+      "id": "camp-6",
+      "name": "Campaign 6",
+      "platform": "twitter",
+      "start": "2025-10-30",
+      "end": "2026-01-08",
+      "impressions": 164860,
+      "clicks": 75424,
+      "conversions": 3923
+    },
+    {
+      "id": "camp-7",
+      "name": "Campaign 7",
+      "platform": "linkedin",
+      "start": "2025-11-13",
+      "end": "2026-01-08",
+      "impressions": 504853,
+      "clicks": 41230,
+      "conversions": 4334
+    },
+    {
+      "id": "camp-8",
+      "name": "Campaign 8",
+      "platform": "instagram",
+      "start": "2025-10-31",
+      "end": "2026-01-08",
+      "impressions": 29810,
+      "clicks": 3467,
+      "conversions": 6620
+    },
+    {
+      "id": "camp-9",
+      "name": "Campaign 9",
+      "platform": "instagram",
+      "start": "2025-10-22",
+      "end": "2026-01-08",
+      "impressions": 607502,
+      "clicks": 2906,
+      "conversions": 7866
+    },
+    {
+      "id": "camp-10",
+      "name": "Campaign 10",
+      "platform": "linkedin",
+      "start": "2025-12-26",
+      "end": "2026-01-08",
+      "impressions": 584033,
+      "clicks": 12667,
+      "conversions": 2707
+    },
+    {
+      "id": "camp-11",
+      "name": "Campaign 11",
+      "platform": "instagram",
+      "start": "2025-12-14",
+      "end": "2026-01-04",
+      "impressions": 472894,
+      "clicks": 62836,
+      "conversions": 5107
+    },
+    {
+      "id": "camp-12",
+      "name": "Campaign 12",
+      "platform": "twitter",
+      "start": "2026-01-12",
+      "end": "2026-01-07",
+      "impressions": 407040,
+      "clicks": 76552,
+      "conversions": 8330
+    },
+    {
+      "id": "camp-13",
+      "name": "Campaign 13",
+      "platform": "instagram",
+      "start": "2025-10-20",
+      "end": "2026-01-03",
+      "impressions": 480799,
+      "clicks": 58070,
+      "conversions": 7411
+    },
+    {
+      "id": "camp-14",
+      "name": "Campaign 14",
+      "platform": "linkedin",
+      "start": "2025-12-03",
+      "end": "2026-01-12",
+      "impressions": 323579,
+      "clicks": 49038,
+      "conversions": 2657
+    },
+    {
+      "id": "camp-15",
+      "name": "Campaign 15",
+      "platform": "twitter",
+      "start": "2025-10-27",
+      "end": "2026-01-13",
+      "impressions": 216501,
+      "clicks": 57483,
+      "conversions": 7950
+    },
+    {
+      "id": "camp-16",
+      "name": "Campaign 16",
+      "platform": "twitter",
+      "start": "2025-11-26",
+      "end": "2026-01-11",
+      "impressions": 151169,
+      "clicks": 25916,
+      "conversions": 4589
+    },
+    {
+      "id": "camp-17",
+      "name": "Campaign 17",
+      "platform": "instagram",
+      "start": "2025-12-27",
+      "end": "2026-01-11",
+      "impressions": 701630,
+      "clicks": 59767,
+      "conversions": 5132
+    },
+    {
+      "id": "camp-18",
+      "name": "Campaign 18",
+      "platform": "twitter",
+      "start": "2025-11-05",
+      "end": "2026-01-13",
+      "impressions": 167534,
+      "clicks": 72913,
+      "conversions": 2568
+    },
+    {
+      "id": "camp-19",
+      "name": "Campaign 19",
+      "platform": "instagram",
+      "start": "2025-10-15",
+      "end": "2026-01-05",
+      "impressions": 20773,
+      "clicks": 46465,
+      "conversions": 5046
+    },
+    {
+      "id": "camp-20",
+      "name": "Campaign 20",
+      "platform": "linkedin",
+      "start": "2025-12-11",
+      "end": "2026-01-09",
+      "impressions": 36158,
+      "clicks": 3897,
+      "conversions": 2668
+    },
+    {
+      "id": "camp-21",
+      "name": "Campaign 21",
+      "platform": "twitter",
+      "start": "2025-10-27",
+      "end": "2026-01-06",
+      "impressions": 45845,
+      "clicks": 48746,
+      "conversions": 7368
+    },
+    {
+      "id": "camp-22",
+      "name": "Campaign 22",
+      "platform": "instagram",
+      "start": "2025-10-27",
+      "end": "2026-01-08",
+      "impressions": 148597,
+      "clicks": 76406,
+      "conversions": 8706
+    },
+    {
+      "id": "camp-23",
+      "name": "Campaign 23",
+      "platform": "twitter",
+      "start": "2025-12-23",
+      "end": "2026-01-13",
+      "impressions": 427734,
+      "clicks": 331,
+      "conversions": 1919
+    },
+    {
+      "id": "camp-24",
+      "name": "Campaign 24",
+      "platform": "twitter",
+      "start": "2025-12-15",
+      "end": "2026-01-03",
+      "impressions": 284827,
+      "clicks": 33390,
+      "conversions": 3322
+    },
+    {
+      "id": "camp-25",
+      "name": "Campaign 25",
+      "platform": "linkedin",
+      "start": "2025-12-22",
+      "end": "2026-01-04",
+      "impressions": 308056,
+      "clicks": 53994,
+      "conversions": 987
+    },
+    {
+      "id": "camp-26",
+      "name": "Campaign 26",
+      "platform": "twitter",
+      "start": "2025-11-03",
+      "end": "2026-01-06",
+      "impressions": 501025,
+      "clicks": 61700,
+      "conversions": 8239
+    },
+    {
+      "id": "camp-27",
+      "name": "Campaign 27",
+      "platform": "twitter",
+      "start": "2025-11-17",
+      "end": "2026-01-07",
+      "impressions": 337007,
+      "clicks": 37609,
+      "conversions": 7622
+    },
+    {
+      "id": "camp-28",
+      "name": "Campaign 28",
+      "platform": "twitter",
+      "start": "2026-01-06",
+      "end": "2026-01-06",
+      "impressions": 147675,
+      "clicks": 63907,
+      "conversions": 5217
+    },
+    {
+      "id": "camp-29",
+      "name": "Campaign 29",
+      "platform": "linkedin",
+      "start": "2025-12-19",
+      "end": "2026-01-04",
+      "impressions": 70620,
+      "clicks": 6648,
+      "conversions": 6549
+    },
+    {
+      "id": "camp-30",
+      "name": "Campaign 30",
+      "platform": "instagram",
+      "start": "2026-01-13",
+      "end": "2026-01-04",
+      "impressions": 249176,
+      "clicks": 46650,
+      "conversions": 5884
+    }
+  ]
+}

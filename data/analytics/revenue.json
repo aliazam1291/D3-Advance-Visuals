@@ -1,0 +1,1322 @@
+[
+  {
+    "date": "2025-09-16",
+    "revenue": 760045,
+    "cost": 360919,
+    "profit": 399126,
+    "channels": {
+      "online": 412091,
+      "retail": 203975,
+      "partners": 143979
+    }
+  },
+  {
+    "date": "2025-09-17",
+    "revenue": 480017,
+    "cost": 269602,
+    "profit": 210415,
+    "channels": {
+      "online": 245825,
+      "retail": 155598,
+      "partners": 78594
+    }
+  },
+  {
+    "date": "2025-09-18",
+    "revenue": 164816,
+    "cost": 83203,
+    "profit": 81613,
+    "channels": {
+      "online": 80338,
+      "retail": 55596,
+      "partners": 28882
+    }
+  },
+  {
+    "date": "2025-09-19",
+    "revenue": 388191,
+    "cost": 250722,
+    "profit": 137469,
+    "channels": {
+      "online": 209988,
+      "retail": 119464,
+      "partners": 58739
+    }
+  },
+  {
+    "date": "2025-09-20",
+    "revenue": 692827,
+    "cost": 401738,
+    "profit": 291089,
+    "channels": {
+      "online": 368764,
+      "retail": 186467,
+      "partners": 137596
+    }
+  },
+  {
+    "date": "2025-09-21",
+    "revenue": 291853,
+    "cost": 140304,
+    "profit": 151549,
+    "channels": {
+      "online": 137598,
+      "retail": 97697,
+      "partners": 56558
+    }
+  },
+  {
+    "date": "2025-09-22",
+    "revenue": 567603,
+    "cost": 321848,
+    "profit": 245755,
+    "channels": {
+      "online": 329103,
+      "retail": 158655,
+      "partners": 79845
+    }
+  },
+  {
+    "date": "2025-09-23",
+    "revenue": 691824,
+    "cost": 385320,
+    "profit": 306504,
+    "channels": {
+      "online": 340092,
+      "retail": 229898,
+      "partners": 121834
+    }
+  },
+  {
+    "date": "2025-09-24",
+    "revenue": 518669,
+    "cost": 257881,
+    "profit": 260788,
+    "channels": {
+      "online": 233386,
+      "retail": 168346,
+      "partners": 116937
+    }
+  },
+  {
+    "date": "2025-09-25",
+    "revenue": 417744,
+    "cost": 246909,
+    "profit": 170835,
+    "channels": {
+      "online": 202605,
+      "retail": 126583,
+      "partners": 88556
+    }
+  },
+  {
+    "date": "2025-09-26",
+    "revenue": 694307,
+    "cost": 386543,
+    "profit": 307764,
+    "channels": {
+      "online": 333427,
+      "retail": 245038,
+      "partners": 115842
+    }
+  },
+  {
+    "date": "2025-09-27",
+    "revenue": 383135,
+    "cost": 173858,
+    "profit": 209277,
+    "channels": {
+      "online": 196077,
+      "retail": 128029,
+      "partners": 59029
+    }
+  },
+  {
+    "date": "2025-09-28",
+    "revenue": 328693,
+    "cost": 213256,
+    "profit": 115437,
+    "channels": {
+      "online": 185323,
+      "retail": 94489,
+      "partners": 48881
+    }
+  },
+  {
+    "date": "2025-09-29",
+    "revenue": 363764,
+    "cost": 239037,
+    "profit": 124727,
+    "channels": {
+      "online": 184627,
+      "retail": 111172,
+      "partners": 67965
+    }
+  },
+  {
+    "date": "2025-09-30",
+    "revenue": 476868,
+    "cost": 248053,
+    "profit": 228815,
+    "channels": {
+      "online": 223556,
+      "retail": 146342,
+      "partners": 106970
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "revenue": 559120,
+    "cost": 401592,
+    "profit": 157528,
+    "channels": {
+      "online": 286001,
+      "retail": 150474,
+      "partners": 122645
+    }
+  },
+  {
+    "date": "2025-10-02",
+    "revenue": 498986,
+    "cost": 275361,
+    "profit": 223625,
+    "channels": {
+      "online": 244350,
+      "retail": 153603,
+      "partners": 101033
+    }
+  },
+  {
+    "date": "2025-10-03",
+    "revenue": 627102,
+    "cost": 305781,
+    "profit": 321321,
+    "channels": {
+      "online": 317005,
+      "retail": 171967,
+      "partners": 138130
+    }
+  },
+  {
+    "date": "2025-10-04",
+    "revenue": 612786,
+    "cost": 341971,
+    "profit": 270815,
+    "channels": {
+      "online": 311308,
+      "retail": 155633,
+      "partners": 145845
+    }
+  },
+  {
+    "date": "2025-10-05",
+    "revenue": 203982,
+    "cost": 136497,
+    "profit": 67485,
+    "channels": {
+      "online": 104384,
+      "retail": 66132,
+      "partners": 33466
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "revenue": 772924,
+    "cost": 360072,
+    "profit": 412852,
+    "channels": {
+      "online": 357777,
+      "retail": 236058,
+      "partners": 179089
+    }
+  },
+  {
+    "date": "2025-10-07",
+    "revenue": 586279,
+    "cost": 267732,
+    "profit": 318547,
+    "channels": {
+      "online": 317898,
+      "retail": 171335,
+      "partners": 97046
+    }
+  },
+  {
+    "date": "2025-10-08",
+    "revenue": 482804,
+    "cost": 322867,
+    "profit": 159937,
+    "channels": {
+      "online": 250498,
+      "retail": 143389,
+      "partners": 88917
+    }
+  },
+  {
+    "date": "2025-10-09",
+    "revenue": 213578,
+    "cost": 151510,
+    "profit": 62068,
+    "channels": {
+      "online": 104504,
+      "retail": 66890,
+      "partners": 42184
+    }
+  },
+  {
+    "date": "2025-10-10",
+    "revenue": 553857,
+    "cost": 390210,
+    "profit": 163647,
+    "channels": {
+      "online": 257345,
+      "retail": 183326,
+      "partners": 113186
+    }
+  },
+  {
+    "date": "2025-10-11",
+    "revenue": 359827,
+    "cost": 249714,
+    "profit": 110113,
+    "channels": {
+      "online": 201460,
+      "retail": 87598,
+      "partners": 70769
+    }
+  },
+  {
+    "date": "2025-10-12",
+    "revenue": 669700,
+    "cost": 475321,
+    "profit": 194379,
+    "channels": {
+      "online": 338156,
+      "retail": 217275,
+      "partners": 114269
+    }
+  },
+  {
+    "date": "2025-10-13",
+    "revenue": 718213,
+    "cost": 388701,
+    "profit": 329512,
+    "channels": {
+      "online": 382926,
+      "retail": 184819,
+      "partners": 150468
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "revenue": 270231,
+    "cost": 183272,
+    "profit": 86959,
+    "channels": {
+      "online": 125310,
+      "retail": 84790,
+      "partners": 60131
+    }
+  },
+  {
+    "date": "2025-10-15",
+    "revenue": 265587,
+    "cost": 198539,
+    "profit": 67048,
+    "channels": {
+      "online": 148121,
+      "retail": 68562,
+      "partners": 48904
+    }
+  },
+  {
+    "date": "2025-10-16",
+    "revenue": 148986,
+    "cost": 96350,
+    "profit": 52636,
+    "channels": {
+      "online": 70500,
+      "retail": 40805,
+      "partners": 37681
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "revenue": 323106,
+    "cost": 191605,
+    "profit": 131501,
+    "channels": {
+      "online": 167535,
+      "retail": 109871,
+      "partners": 45700
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "revenue": 196968,
+    "cost": 93188,
+    "profit": 103780,
+    "channels": {
+      "online": 112914,
+      "retail": 49925,
+      "partners": 34129
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "revenue": 709627,
+    "cost": 473376,
+    "profit": 236251,
+    "channels": {
+      "online": 365099,
+      "retail": 230849,
+      "partners": 113679
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "revenue": 734288,
+    "cost": 523380,
+    "profit": 210908,
+    "channels": {
+      "online": 361008,
+      "retail": 225569,
+      "partners": 147711
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "revenue": 564196,
+    "cost": 380168,
+    "profit": 184028,
+    "channels": {
+      "online": 285314,
+      "retail": 185691,
+      "partners": 93191
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "revenue": 191889,
+    "cost": 100869,
+    "profit": 91020,
+    "channels": {
+      "online": 96159,
+      "retail": 51182,
+      "partners": 44548
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "revenue": 596572,
+    "cost": 284595,
+    "profit": 311977,
+    "channels": {
+      "online": 275343,
+      "retail": 217415,
+      "partners": 103814
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "revenue": 726747,
+    "cost": 516847,
+    "profit": 209900,
+    "channels": {
+      "online": 362930,
+      "retail": 229618,
+      "partners": 134199
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "revenue": 214534,
+    "cost": 113819,
+    "profit": 100715,
+    "channels": {
+      "online": 120291,
+      "retail": 63358,
+      "partners": 30885
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "revenue": 195731,
+    "cost": 102849,
+    "profit": 92882,
+    "channels": {
+      "online": 96199,
+      "retail": 54330,
+      "partners": 45202
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "revenue": 353449,
+    "cost": 161173,
+    "profit": 192276,
+    "channels": {
+      "online": 189586,
+      "retail": 100858,
+      "partners": 63005
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "revenue": 690192,
+    "cost": 381477,
+    "profit": 308715,
+    "channels": {
+      "online": 371432,
+      "retail": 185832,
+      "partners": 132928
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "revenue": 506870,
+    "cost": 236768,
+    "profit": 270102,
+    "channels": {
+      "online": 244175,
+      "retail": 142039,
+      "partners": 120656
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "revenue": 417211,
+    "cost": 227467,
+    "profit": 189744,
+    "channels": {
+      "online": 205844,
+      "retail": 134319,
+      "partners": 77048
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "revenue": 471710,
+    "cost": 246545,
+    "profit": 225165,
+    "channels": {
+      "online": 206079,
+      "retail": 155665,
+      "partners": 109966
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "revenue": 211387,
+    "cost": 142041,
+    "profit": 69346,
+    "channels": {
+      "online": 103634,
+      "retail": 68736,
+      "partners": 39017
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "revenue": 697151,
+    "cost": 361503,
+    "profit": 335648,
+    "channels": {
+      "online": 337798,
+      "retail": 226579,
+      "partners": 132774
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "revenue": 317393,
+    "cost": 186311,
+    "profit": 131082,
+    "channels": {
+      "online": 161791,
+      "retail": 85288,
+      "partners": 70314
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "revenue": 781561,
+    "cost": 489048,
+    "profit": 292513,
+    "channels": {
+      "online": 389689,
+      "retail": 241615,
+      "partners": 150257
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "revenue": 201839,
+    "cost": 103842,
+    "profit": 97997,
+    "channels": {
+      "online": 108293,
+      "retail": 49818,
+      "partners": 43728
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "revenue": 189654,
+    "cost": 86067,
+    "profit": 103587,
+    "channels": {
+      "online": 88004,
+      "retail": 64465,
+      "partners": 37185
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "revenue": 465298,
+    "cost": 211378,
+    "profit": 253920,
+    "channels": {
+      "online": 207213,
+      "retail": 163158,
+      "partners": 94927
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "revenue": 479593,
+    "cost": 275828,
+    "profit": 203765,
+    "channels": {
+      "online": 249813,
+      "retail": 145179,
+      "partners": 84601
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "revenue": 209165,
+    "cost": 138351,
+    "profit": 70814,
+    "channels": {
+      "online": 114134,
+      "retail": 50279,
+      "partners": 44752
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "revenue": 391805,
+    "cost": 240679,
+    "profit": 151126,
+    "channels": {
+      "online": 224134,
+      "retail": 101691,
+      "partners": 65980
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "revenue": 150447,
+    "cost": 72644,
+    "profit": 77803,
+    "channels": {
+      "online": 83699,
+      "retail": 40493,
+      "partners": 26255
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "revenue": 768008,
+    "cost": 473003,
+    "profit": 295005,
+    "channels": {
+      "online": 380558,
+      "retail": 252491,
+      "partners": 134959
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "revenue": 552815,
+    "cost": 353346,
+    "profit": 199469,
+    "channels": {
+      "online": 294914,
+      "retail": 159044,
+      "partners": 98857
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "revenue": 644827,
+    "cost": 429544,
+    "profit": 215283,
+    "channels": {
+      "online": 332435,
+      "retail": 197059,
+      "partners": 115333
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "revenue": 447502,
+    "cost": 289926,
+    "profit": 157576,
+    "channels": {
+      "online": 217540,
+      "retail": 145100,
+      "partners": 84862
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "revenue": 833488,
+    "cost": 393007,
+    "profit": 440481,
+    "channels": {
+      "online": 455428,
+      "retail": 263269,
+      "partners": 114791
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "revenue": 461082,
+    "cost": 261068,
+    "profit": 200014,
+    "channels": {
+      "online": 244531,
+      "retail": 127491,
+      "partners": 89060
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "revenue": 625995,
+    "cost": 314327,
+    "profit": 311668,
+    "channels": {
+      "online": 336966,
+      "retail": 202800,
+      "partners": 86229
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "revenue": 676791,
+    "cost": 362546,
+    "profit": 314245,
+    "channels": {
+      "online": 342012,
+      "retail": 207417,
+      "partners": 127362
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "revenue": 795591,
+    "cost": 400768,
+    "profit": 394823,
+    "channels": {
+      "online": 392465,
+      "retail": 231305,
+      "partners": 171821
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "revenue": 708591,
+    "cost": 331741,
+    "profit": 376850,
+    "channels": {
+      "online": 374428,
+      "retail": 175260,
+      "partners": 158903
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "revenue": 704818,
+    "cost": 503163,
+    "profit": 201655,
+    "channels": {
+      "online": 374483,
+      "retail": 217770,
+      "partners": 112565
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "revenue": 785415,
+    "cost": 510393,
+    "profit": 275022,
+    "channels": {
+      "online": 400008,
+      "retail": 233409,
+      "partners": 151998
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "revenue": 328162,
+    "cost": 240130,
+    "profit": 88032,
+    "channels": {
+      "online": 171404,
+      "retail": 86641,
+      "partners": 70117
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "revenue": 572524,
+    "cost": 393300,
+    "profit": 179224,
+    "channels": {
+      "online": 321716,
+      "retail": 158767,
+      "partners": 92041
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "revenue": 316164,
+    "cost": 202034,
+    "profit": 114130,
+    "channels": {
+      "online": 176059,
+      "retail": 80477,
+      "partners": 59628
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "revenue": 751922,
+    "cost": 512409,
+    "profit": 239513,
+    "channels": {
+      "online": 384187,
+      "retail": 220061,
+      "partners": 147674
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "revenue": 500345,
+    "cost": 346101,
+    "profit": 154244,
+    "channels": {
+      "online": 267596,
+      "retail": 145578,
+      "partners": 87171
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "revenue": 235321,
+    "cost": 119084,
+    "profit": 116237,
+    "channels": {
+      "online": 133683,
+      "retail": 66532,
+      "partners": 35106
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "revenue": 578188,
+    "cost": 358636,
+    "profit": 219552,
+    "channels": {
+      "online": 289011,
+      "retail": 174881,
+      "partners": 114296
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "revenue": 485313,
+    "cost": 218943,
+    "profit": 266370,
+    "channels": {
+      "online": 248245,
+      "retail": 152552,
+      "partners": 84516
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "revenue": 602998,
+    "cost": 390578,
+    "profit": 212420,
+    "channels": {
+      "online": 296431,
+      "retail": 170850,
+      "partners": 135717
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "revenue": 454076,
+    "cost": 326862,
+    "profit": 127214,
+    "channels": {
+      "online": 273026,
+      "retail": 113770,
+      "partners": 67280
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "revenue": 803368,
+    "cost": 418326,
+    "profit": 385042,
+    "channels": {
+      "online": 399789,
+      "retail": 261605,
+      "partners": 141974
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "revenue": 729747,
+    "cost": 478749,
+    "profit": 250998,
+    "channels": {
+      "online": 375305,
+      "retail": 233199,
+      "partners": 121243
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "revenue": 764886,
+    "cost": 516634,
+    "profit": 248252,
+    "channels": {
+      "online": 395465,
+      "retail": 221599,
+      "partners": 147822
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "revenue": 680499,
+    "cost": 419599,
+    "profit": 260900,
+    "channels": {
+      "online": 338150,
+      "retail": 222081,
+      "partners": 120268
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "revenue": 476412,
+    "cost": 305953,
+    "profit": 170459,
+    "channels": {
+      "online": 259021,
+      "retail": 125187,
+      "partners": 92204
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "revenue": 277993,
+    "cost": 141467,
+    "profit": 136526,
+    "channels": {
+      "online": 139138,
+      "retail": 89606,
+      "partners": 49249
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "revenue": 217065,
+    "cost": 159645,
+    "profit": 57420,
+    "channels": {
+      "online": 108064,
+      "retail": 73243,
+      "partners": 35758
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "revenue": 245594,
+    "cost": 163868,
+    "profit": 81726,
+    "channels": {
+      "online": 135581,
+      "retail": 63502,
+      "partners": 46511
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "revenue": 641929,
+    "cost": 337906,
+    "profit": 304023,
+    "channels": {
+      "online": 329629,
+      "retail": 182803,
+      "partners": 129497
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "revenue": 479766,
+    "cost": 337665,
+    "profit": 142101,
+    "channels": {
+      "online": 250286,
+      "retail": 142866,
+      "partners": 86614
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "revenue": 367250,
+    "cost": 217999,
+    "profit": 149251,
+    "channels": {
+      "online": 197576,
+      "retail": 113051,
+      "partners": 56623
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "revenue": 729107,
+    "cost": 339166,
+    "profit": 389941,
+    "channels": {
+      "online": 385281,
+      "retail": 211061,
+      "partners": 132765
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "revenue": 222790,
+    "cost": 137945,
+    "profit": 84845,
+    "channels": {
+      "online": 116415,
+      "retail": 62366,
+      "partners": 44009
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "revenue": 372227,
+    "cost": 218221,
+    "profit": 154006,
+    "channels": {
+      "online": 195578,
+      "retail": 97814,
+      "partners": 78835
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "revenue": 456387,
+    "cost": 320639,
+    "profit": 135748,
+    "channels": {
+      "online": 229631,
+      "retail": 149251,
+      "partners": 77505
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "revenue": 555750,
+    "cost": 416611,
+    "profit": 139139,
+    "channels": {
+      "online": 305483,
+      "retail": 150919,
+      "partners": 99348
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "revenue": 622502,
+    "cost": 386618,
+    "profit": 235884,
+    "channels": {
+      "online": 334562,
+      "retail": 197297,
+      "partners": 90643
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "revenue": 161915,
+    "cost": 73452,
+    "profit": 88463,
+    "channels": {
+      "online": 76926,
+      "retail": 52793,
+      "partners": 32196
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "revenue": 508328,
+    "cost": 373091,
+    "profit": 135237,
+    "channels": {
+      "online": 269848,
+      "retail": 144670,
+      "partners": 93810
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "revenue": 233125,
+    "cost": 162400,
+    "profit": 70725,
+    "channels": {
+      "online": 112558,
+      "retail": 74149,
+      "partners": 46418
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "revenue": 772324,
+    "cost": 524096,
+    "profit": 248228,
+    "channels": {
+      "online": 386746,
+      "retail": 227755,
+      "partners": 157823
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "revenue": 178297,
+    "cost": 122843,
+    "profit": 55454,
+    "channels": {
+      "online": 88762,
+      "retail": 61190,
+      "partners": 28345
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "revenue": 365916,
+    "cost": 165141,
+    "profit": 200775,
+    "channels": {
+      "online": 211434,
+      "retail": 98461,
+      "partners": 56021
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "revenue": 180181,
+    "cost": 114535,
+    "profit": 65646,
+    "channels": {
+      "online": 96746,
+      "retail": 50614,
+      "partners": 32821
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "revenue": 252594,
+    "cost": 135935,
+    "profit": 116659,
+    "channels": {
+      "online": 143268,
+      "retail": 71113,
+      "partners": 38213
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "revenue": 742563,
+    "cost": 490506,
+    "profit": 252057,
+    "channels": {
+      "online": 335262,
+      "retail": 263413,
+      "partners": 143888
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "revenue": 217401,
+    "cost": 153525,
+    "profit": 63876,
+    "channels": {
+      "online": 105472,
+      "retail": 63069,
+      "partners": 48860
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "revenue": 360642,
+    "cost": 220965,
+    "profit": 139677,
+    "channels": {
+      "online": 171203,
+      "retail": 120906,
+      "partners": 68533
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "revenue": 655459,
+    "cost": 352870,
+    "profit": 302589,
+    "channels": {
+      "online": 330382,
+      "retail": 183356,
+      "partners": 141721
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "revenue": 530337,
+    "cost": 252121,
+    "profit": 278216,
+    "channels": {
+      "online": 276761,
+      "retail": 169555,
+      "partners": 84021
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "revenue": 401821,
+    "cost": 258104,
+    "profit": 143717,
+    "channels": {
+      "online": 209901,
+      "retail": 103922,
+      "partners": 87998
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "revenue": 450350,
+    "cost": 289643,
+    "profit": 160707,
+    "channels": {
+      "online": 247285,
+      "retail": 131825,
+      "partners": 71240
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "revenue": 207548,
+    "cost": 146833,
+    "profit": 60715,
+    "channels": {
+      "online": 99242,
+      "retail": 74580,
+      "partners": 33726
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "revenue": 763582,
+    "cost": 414655,
+    "profit": 348927,
+    "channels": {
+      "online": 393621,
+      "retail": 214616,
+      "partners": 155345
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "revenue": 542343,
+    "cost": 290266,
+    "profit": 252077,
+    "channels": {
+      "online": 271711,
+      "retail": 169081,
+      "partners": 101551
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "revenue": 746896,
+    "cost": 395675,
+    "profit": 351221,
+    "channels": {
+      "online": 317478,
+      "retail": 260957,
+      "partners": 168461
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "revenue": 567122,
+    "cost": 374158,
+    "profit": 192964,
+    "channels": {
+      "online": 302479,
+      "retail": 179547,
+      "partners": 85096
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "revenue": 285089,
+    "cost": 177670,
+    "profit": 107419,
+    "channels": {
+      "online": 143022,
+      "retail": 83925,
+      "partners": 58142
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "revenue": 423323,
+    "cost": 303122,
+    "profit": 120201,
+    "channels": {
+      "online": 202388,
+      "retail": 154208,
+      "partners": 66727
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "revenue": 450479,
+    "cost": 253992,
+    "profit": 196487,
+    "channels": {
+      "online": 244830,
+      "retail": 121860,
+      "partners": 83789
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "revenue": 163429,
+    "cost": 97641,
+    "profit": 65788,
+    "channels": {
+      "online": 77008,
+      "retail": 60784,
+      "partners": 25637
+    }
+  }
+]
