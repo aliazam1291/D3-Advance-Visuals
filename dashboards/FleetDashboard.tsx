@@ -1,6 +1,6 @@
 "use client";
 import FleetStatusStacked from "@/charts/fleet/FleetStatusStacked";
-import SpeedHistogram from "@/charts/fleet/SpeedHistogram";
+import SpeedHistogram from "@/charts/fleet/SpeedingHistogram";
 import TripTimeline from "@/charts/fleet/TripTimeline";
 
 export default function FleetOpsDashboard() {
@@ -12,15 +12,15 @@ export default function FleetOpsDashboard() {
         <p className="text-gray-500">Live vehicle health & trip performance</p>
       </div>
 
-      <div className="col-span-6 bg-white p-4 rounded-xl shadow">
+      <div className="col-span-6 glass p-6">
         <FleetStatusStacked />
       </div>
 
-      <div className="col-span-6 bg-white p-4 rounded-xl shadow">
+      <div className="col-span-6 glass p-6">
         <SpeedHistogram />
       </div>
 
-      <div className="col-span-12 bg-white p-4 rounded-xl shadow">
+      <div className="col-span-6 glass p-6">
         <TripTimeline />
       </div>
 

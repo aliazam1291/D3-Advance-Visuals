@@ -3,10 +3,11 @@ import * as d3 from "d3";
 import { useEffect, useRef } from "react";
 import vehicles from "@/data/fleet/vehicles.json";
 
-export default function FleetStatusStacked() {
+export default function SpeedHistogram() {
   const ref = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
+    const speeds = vehicles.map(v => v.speed);
     const width = 400;
     const height = 250;
 
@@ -14,21 +15,14 @@ export default function FleetStatusStacked() {
     svg.selectAll("*").remove();
     svg.attr("width", width).attr("height", height);
 
-    const counts = d3.rollups(
-      vehicles,
-      v => v.length,
-      d => d.status
-    );
+    const x = d3.scaleLinear()
+      .domain([0, 80])
+      .range([40, width - 20]);
 
-    const data = Array.from(counts, ([status, count]) => ({ status, count }));
-
-    const x = d3.scaleBand()
-      .domain(data.map(d => d.status))
-      .range([40, width - 20])
-      .padding(0.3);
+    const bins = d3.bin().domain(x.domain() as [number, number]).thresholds(8)(speeds);
 
     const y = d3.scaleLinear()
-      .domain([0, d3.max(data, d => d.count)!])
+      .domain([0, d3.max(bins, d => d.length)!])
       .range([height - 40, 20]);
 
     svg.append("g")
@@ -40,19 +34,20 @@ export default function FleetStatusStacked() {
       .call(d3.axisLeft(y));
 
     svg.selectAll("rect")
-      .data(data)
+      .data(bins)
       .enter()
       .append("rect")
-      .attr("x", d => x(d.status)!)
-      .attr("y", d => y(d.count))
-      .attr("width", x.bandwidth())
-      .attr("height", d => height - 40 - y(d.count))
-      .attr("fill", "#4f46e5");
+      .attr("x", d => x(d.x0!))
+      .attr("y", d => y(d.length))
+      .attr("width", d => x(d.x1!) - x(d.x0!) - 2)
+      .attr("height", d => height - 40 - y(d.length))
+      .attr("fill", "#22c55e");
+
   }, []);
 
   return (
     <>
-      <h3 className="font-semibold mb-2">Fleet Status</h3>
+      <h3 className="font-semibold mb-2">Speed Distribution</h3>
       <svg ref={ref} />
     </>
   );
