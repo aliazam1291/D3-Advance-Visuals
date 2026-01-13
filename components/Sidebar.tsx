@@ -10,9 +10,10 @@ const navItems = [
   { href: '/fleet', label: 'Fleet', icon: '🚗' },
   { href: '/ecommerce', label: 'Fulfillment', icon: '📦' },
   { href: '/analytics', label: 'Analytics', icon: '📈' },
-  { href: '/components', label: 'Components', icon: '⚙️' },
+  
   { href: '/social', label: 'Social', icon: '👥' },
   { href: '/crm', label: 'CRM', icon: '📊' },
+  { href: '/components', label: 'Components', icon: '⚙️' },
 ]
 
 export function Sidebar() {

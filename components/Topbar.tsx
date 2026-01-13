@@ -8,9 +8,10 @@ export function Topbar() {
 
   return (
     <header
-      className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-[var(--border)] bg-[var(--bg-card)] backdrop-blur px-4 sm:px-6 transition-all duration-300"
+      className="sticky top-0 right-0 z-30 flex h-18.25 items-center justify-between border-b border-[var(--border)] bg-[var(--bg-card)]/80 backdrop-blur px-4 sm:px-6 transition-all duration-300"
       style={{
-        marginLeft: collapsed ? '5rem' : '16rem',
+        // Use left instead of marginLeft to anchor it exactly to the sidebar edge
+        left: collapsed ? '5rem' : '10rem',
       }}
     >
       <div>
@@ -20,7 +21,7 @@ export function Topbar() {
 
       <div className="flex items-center gap-4">
         <ThemeSwitcher />
-        <div className="w-9 h-9 rounded-full bg-[var(--accent)] text-white flex items-center justify-center font-bold">
+        <div className="w-9 h-9 rounded-full bg-[var(--accent)] text-white flex items-center justify-center font-bold shadow-sm">
           A
         </div>
       </div>

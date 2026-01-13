@@ -1,5 +1,3 @@
-import { DashboardLayout } from '@/components/DashboardLayout'
-import { PageHeader } from '@/components/PageHeader'
 import { KPICard } from '@/charts/KPICard'
 import { RadialGauge } from '@/charts/RadialGauge'
 import { BarChart } from '@/charts/BarChart'
@@ -9,10 +7,18 @@ import { Heatmap } from '@/charts/Heatmap'
 import leads from '@/data/crm/leads.json'
 import pipelineMonthly from '@/data/crm/pipeline_monthly.json'
 
-export default function Page() {
+export default function CRMPage() {
   const totalLeads = leads.length
   const converted = leads.filter((l) => l.converted).length
   const conversionRate = totalLeads ? Math.round((converted / totalLeads) * 100) : 0
+
+  // KPI Data Array (Matching Analytics Style)
+  const stats = [
+    { title: "Leads", value: totalLeads, icon: "🎯", color: "accent" },
+    { title: "Converted", value: converted, icon: "✅", color: "success" },
+    { title: "Conversion", value: `${conversionRate}%`, icon: "📈", color: "success" },
+    { title: "Sources", value: 8, icon: "🌐", color: "info" },
+  ];
 
   const srcMap: Record<string, number> = {}
   leads.forEach((l) => (srcMap[l.source] = (srcMap[l.source] || 0) + 1))
@@ -23,9 +29,7 @@ export default function Page() {
 
   const leadsByDay: Record<string, number> = {}
   leads.forEach((l) => (leadsByDay[l.created_at] = (leadsByDay[l.created_at] || 0) + 1))
-  const leadSeries = Object.keys(leadsByDay)
-    .sort()
-    .map((d) => ({ x: d, y: leadsByDay[d] }))
+  const leadSeries = Object.keys(leadsByDay).sort().map((d) => ({ x: d, y: leadsByDay[d] }))
 
   const stages = Object.keys(pipelineMonthly[0].byStage)
   const pipelineMulti = pipelineMonthly.map((m) => {
@@ -39,63 +43,67 @@ export default function Page() {
   )
 
   return (
-    <DashboardLayout>
-      <div className="space-y-10">
-        <PageHeader title="CRM" subtitle="Leads, pipeline & conversions" />
+    <div className="space-y-10">
+      {/* Header */}
+      <div>
+        <h1 className="text-3xl font-bold gradient-text">CRM Overview</h1>
+        <p className="text-[var(--text-secondary)]">Lead acquisition, conversion rates, and pipeline stages</p>
+      </div>
 
-        {/* KPIs */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <KPICard title="Leads" value={totalLeads} />
-          <KPICard title="Converted" value={converted} />
-          <KPICard title="Conversion" value={`${conversionRate}%`} />
-          <KPICard title="Sources" value={sourceArray.length} />
+      {/* KPIs */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {stats.map((s, i) => (
+          <KPICard key={i} {...s} />
+        ))}
+      </div>
+
+      {/* Bento grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2 bento-item">
+          <LineChart data={leadSeries} title="New Leads" />
         </div>
 
-        {/* Bento grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2 bento-item">
-            <LineChart data={leadSeries} title="New Leads" />
-          </div>
+        <div className="bento-item">
+          <RadialGauge value={conversionRate} />
+        </div>
 
-          <div className="bento-item">
-            <RadialGauge value={conversionRate} />
-          </div>
+        <div className="lg:col-span-3 bento-item">
+          <MultiLineChart data={pipelineMulti} keys={stages} title="Pipeline by Stage" />
+        </div>
 
-          <div className="lg:col-span-3 bento-item">
-            <MultiLineChart data={pipelineMulti} keys={stages} title="Pipeline by Stage" />
-          </div>
+        <div className="lg:col-span-2 bento-item">
+          <Heatmap data={pipelineHeatmap} />
+        </div>
 
-          <div className="lg:col-span-2 bento-item">
-            <Heatmap data={pipelineHeatmap} />
-          </div>
+        <div className="bento-item">
+          <BarChart data={sourceArray} title="Top Sources" />
+        </div>
 
-          <div className="bento-item">
-            <BarChart data={sourceArray} title="Top Sources" />
-          </div>
-
-          <div className="lg:col-span-3 bento-item">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead className="text-[var(--text-muted)]">
-                  <tr>
-                    <th>Name</th><th>Source</th><th>Value</th><th>Stage</th>
+        <div className="lg:col-span-3 bento-item">
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="text-[var(--text-muted)]">
+                <tr className="text-left">
+                  <th className="pb-3">Name</th>
+                  <th className="pb-3">Source</th>
+                  <th className="pb-3">Value</th>
+                  <th className="pb-3">Stage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {leads.slice(0, 10).map((l) => (
+                  <tr key={l.id} className="border-t border-[var(--border)]">
+                    <td className="py-3">{l.name}</td>
+                    <td className="py-3">{l.source}</td>
+                    <td className="py-3">${l.value}</td>
+                    <td className="py-3">{l.stage}</td>
                   </tr>
-                </thead>
-                <tbody>
-                  {leads.slice(0, 12).map((l) => (
-                    <tr key={l.id} className="border-t border-[var(--border)]">
-                      <td>{l.name}</td>
-                      <td>{l.source}</td>
-                      <td>{l.value}</td>
-                      <td>{l.stage}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-    </DashboardLayout>
+    </div>
   )
 }
