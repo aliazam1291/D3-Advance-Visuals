@@ -28,37 +28,41 @@ export function KPICard({
   };
 
   return (
-    <div className="bento-item group">
+    <div className="bento-item group relative overflow-hidden">
+      {/* Glow effect on hover */}
+      <div className="absolute -inset-2 bg-gradient-to-r from-[var(--accent)] via-[var(--accent-secondary)] to-transparent opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 -z-10" />
+      
       <div className="flex items-start justify-between">
         <div className="flex-1">
-          <p className="text-[var(--text-secondary)] text-sm font-medium mb-2">
+          <p className="text-[var(--text-secondary)] text-sm font-semibold mb-3 uppercase tracking-wide">
             {title}
           </p>
           <div className="flex items-end gap-2">
-            <span className={`text-3xl font-bold gradient-text`}>
+            <span className={`text-4xl font-black gradient-text`}>
               {value}
             </span>
             {unit && (
-              <span className="text-[var(--text-muted)] text-sm mb-1">
+              <span className="text-[var(--text-muted)] text-xs mb-2 font-medium uppercase">
                 {unit}
               </span>
             )}
           </div>
           {change !== undefined && (
             <p
-              className={`text-sm mt-3 ${
+              className={`text-sm mt-4 font-semibold flex items-center gap-1 ${
                 change >= 0
                   ? 'text-[var(--accent-success)]'
                   : 'text-[var(--accent-danger)]'
               }`}
             >
-              {change >= 0 ? '+' : ''}{change}% from last month
+              <span className="text-lg">{change >= 0 ? '↗' : '↘'}</span>
+              {change >= 0 ? '+' : ''}{Math.abs(change)}% vs last month
             </p>
           )}
         </div>
         {icon && (
           <div
-            className={`w-12 h-12 rounded-lg bg-gradient-to-br ${colorMap[color]} flex items-center justify-center text-xl opacity-80 group-hover:opacity-100 transition-opacity`}
+            className={`w-14 h-14 rounded-xl bg-gradient-to-br ${colorMap[color]} flex items-center justify-center text-2xl opacity-90 group-hover:opacity-100 transition-all duration-300 group-hover:scale-110 shadow-lg group-hover:shadow-2xl`}
           >
             {icon}
           </div>

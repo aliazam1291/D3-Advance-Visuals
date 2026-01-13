@@ -40,11 +40,12 @@ export default function FleetPage() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      <div>
-        <h1 className="section-title">Fleet Operations</h1>
-        <p className="section-subtitle">Real-time fleet monitoring and analytics</p>
+      <div className="border-b border-[var(--border)] pb-6">
+        <h1 className="text-4xl font-black gradient-text mb-2">Fleet Operations</h1>
+        <p className="text-[var(--text-secondary)] text-lg">Real-time fleet monitoring, vehicle tracking, and health analytics</p>
       </div>
 
+      {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {stats.map((stat, i) => (
           <KPICard key={i} {...stat} />

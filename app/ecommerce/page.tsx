@@ -45,9 +45,9 @@ export default function EcommercePage() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      <div>
-        <h1 className="section-title">Fulfillment Center</h1>
-        <p className="section-subtitle">E-commerce order and fulfillment tracking</p>
+      <div className="border-b border-[var(--border)] pb-6">
+        <h1 className="text-4xl font-black gradient-text mb-2">Fulfillment Center</h1>
+        <p className="text-[var(--text-secondary)] text-lg">E-commerce order analytics, hub performance, and SLA tracking</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

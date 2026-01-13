@@ -40,9 +40,9 @@ export default function AnalyticsPage() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      <div>
-        <h1 className="section-title">Business Analytics</h1>
-        <p className="section-subtitle">Comprehensive business metrics and performance indicators</p>
+      <div className="border-b border-[var(--border)] pb-6">
+        <h1 className="text-4xl font-black gradient-text mb-2">Business Analytics</h1>
+        <p className="text-[var(--text-secondary)] text-lg">Comprehensive business metrics, revenue trends, and performance analysis</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

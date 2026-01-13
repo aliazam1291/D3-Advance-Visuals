@@ -28,9 +28,11 @@ export default function Home() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      <div>
-        <h1 className="section-title">Welcome back, Ali 👋</h1>
-        <p className="section-subtitle">Here's what's happening with your business today</p>
+      <div className="border-b border-[var(--border)] pb-6">
+        <h1 className="text-5xl font-black mb-2">
+          <span className="gradient-text">Welcome back, Ali 👋</span>
+        </h1>
+        <p className="text-[var(--text-secondary)] text-lg">Real-time insights into your business performance</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
