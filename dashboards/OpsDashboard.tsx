@@ -6,7 +6,7 @@ import Histogram from '@/charts/distribution/Histogram';
 import Heatmap from '@/charts/distribution/Heatmap';
 
 export default function OpsDashboard() {
-  const [opsData, setOpsData] = useState(null);
+  const [opsData, setOpsData] = useState<any>(null);
 
   useEffect(() => {
     // Load operational data

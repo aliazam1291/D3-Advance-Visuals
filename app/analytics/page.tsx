@@ -29,11 +29,14 @@ export default function AnalyticsPage() {
   const revenueLineData = kpis.map((d, i) => ({ x: i, y: d.revenue }));
 
   // Create heatmap data from performance
-  const heatmapData = performance.slice(0, 20).map((p, idx) => ({
-    row: `Metric ${Math.floor(idx / 5) + 1}`,
-    column: `Week ${(idx % 5) + 1}`,
-    value: p.conversion * 100,
-  }));
+  const heatmapData = performance.slice(0, 20).map((p, idx) => {
+    const conversionRate = (p.orders / (p.revenue / 100)) * 10; // Synthetic conversion metric
+    return {
+      row: `Metric ${Math.floor(idx / 5) + 1}`,
+      column: `Week ${(idx % 5) + 1}`,
+      value: conversionRate,
+    };
+  });
 
   return (
     <div className="space-y-8 animate-fade-in">
@@ -53,20 +56,23 @@ export default function AnalyticsPage() {
         <div className="bento-item">
           <h3 className="text-lg font-semibold mb-4">Key Metrics</h3>
           <div className="space-y-4">
-            {performance.slice(0, 5).map((p, idx) => (
-              <div key={idx} className="flex items-center justify-between">
-                <span className="text-[var(--text-secondary)] text-sm">Conversion Rate Week {idx + 1}</span>
-                <div className="flex items-center gap-3">
-                  <div className="w-32 h-2 bg-[var(--bg-tertiary)] rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-gradient-to-r from-[var(--chart-1)] to-[var(--chart-2)]"
-                      style={{ width: `${p.conversion * 100}%` }}
-                    />
+            {performance.slice(0, 5).map((p, idx) => {
+              const conversionRate = (p.orders / (p.revenue / 100)) * 10; // Synthetic metric
+              return (
+                <div key={idx} className="flex items-center justify-between">
+                  <span className="text-[var(--text-secondary)] text-sm">Conversion Rate Week {idx + 1}</span>
+                  <div className="flex items-center gap-3">
+                    <div className="w-32 h-2 bg-[var(--bg-tertiary)] rounded-full overflow-hidden">
+                      <div
+                        className="h-full bg-gradient-to-r from-[var(--chart-1)] to-[var(--chart-2)]"
+                        style={{ width: `${conversionRate}%` }}
+                      />
+                    </div>
+                    <span className="text-sm font-medium">{conversionRate.toFixed(1)}%</span>
                   </div>
-                  <span className="text-sm font-medium">{(p.conversion * 100).toFixed(1)}%</span>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

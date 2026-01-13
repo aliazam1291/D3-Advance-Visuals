@@ -33,8 +33,8 @@ export function createBandScale(
 /**
  * Creates a color scale
  */
-export function createColorScale(domain: number[], scheme: string[] = d3.schemeCategory10): d3.ScaleOrdinal<string, string> {
-  return d3.scaleOrdinal().domain(domain.map(String)).range(scheme);
+export function createColorScale(domain: number[], scheme: string[] = [...d3.schemeCategory10]): d3.ScaleOrdinal<string, string> {
+  return d3.scaleOrdinal<string>().domain(domain.map(String)).range(scheme) as d3.ScaleOrdinal<string, string>;
 }
 
 /**
