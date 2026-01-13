@@ -1,0 +1,5 @@
+[
+  { "vehicleId": "DL-01-AF-2345", "speed": 65, "status": "moving" },
+  { "vehicleId": "MH-02-ZX-9912", "speed": 4, "status": "idle" },
+  { "vehicleId": "KA-05-PL-8831", "speed": 0, "status": "offline" }
+]

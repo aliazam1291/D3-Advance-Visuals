@@ -1,0 +1,26 @@
+[
+  {
+    "vehicleId": "DL-01-AF-2345",
+    "driver": "Rahul",
+    "hub": "Delhi",
+    "status": "moving",
+    "speed": 62,
+    "health": 92
+  },
+  {
+    "vehicleId": "MH-02-ZX-9912",
+    "driver": "Aman",
+    "hub": "Mumbai",
+    "status": "idle",
+    "speed": 6,
+    "health": 81
+  },
+  {
+    "vehicleId": "KA-05-PL-8831",
+    "driver": "Suresh",
+    "hub": "Bangalore",
+    "status": "offline",
+    "speed": 0,
+    "health": 60
+  }
+]

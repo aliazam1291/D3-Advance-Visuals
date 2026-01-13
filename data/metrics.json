@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2024-01-10T00:00:00Z",
+    "cpu": 45,
+    "memory": 62,
+    "network": 28,
+    "disk": 75
+  },
+  {
+    "timestamp": "2024-01-10T01:00:00Z",
+    "cpu": 52,
+    "memory": 68,
+    "network": 35,
+    "disk": 76
+  },
+  {
+    "timestamp": "2024-01-10T02:00:00Z",
+    "cpu": 48,
+    "memory": 65,
+    "network": 31,
+    "disk": 75
+  }
+]

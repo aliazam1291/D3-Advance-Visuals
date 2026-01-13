@@ -1,0 +1,5 @@
+[
+  { "vehicleId": "DL-01-AF-2345", "lat": 28.61, "lng": 77.21, "timestamp": 1735722000 },
+  { "vehicleId": "MH-02-ZX-9912", "lat": 19.07, "lng": 72.88, "timestamp": 1735722000 },
+  { "vehicleId": "KA-05-PL-8831", "lat": 12.97, "lng": 77.59, "timestamp": 1735722000 }
+]

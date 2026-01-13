@@ -1,0 +1,16 @@
+[
+  {
+    "id": "A001",
+    "timestamp": "2024-01-10T12:30:00Z",
+    "severity": "high",
+    "message": "Engine temperature critical",
+    "vehicleId": "V001"
+  },
+  {
+    "id": "A002",
+    "timestamp": "2024-01-10T14:15:00Z",
+    "severity": "medium",
+    "message": "Maintenance reminder",
+    "vehicleId": "V002"
+  }
+]

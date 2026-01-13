@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "N001",
+      "label": "Server A",
+      "type": "server"
+    },
+    {
+      "id": "N002",
+      "label": "Server B",
+      "type": "server"
+    },
+    {
+      "id": "N003",
+      "label": "Client A",
+      "type": "client"
+    }
+  ],
+  "links": [
+    {
+      "source": "N001",
+      "target": "N002",
+      "value": 100
+    },
+    {
+      "source": "N002",
+      "target": "N003",
+      "value": 75
+    }
+  ]
+}

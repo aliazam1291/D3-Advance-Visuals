@@ -1,0 +1,5 @@
+[
+  { "hub": "Delhi", "capacity": 12000 },
+  { "hub": "Mumbai", "capacity": 9000 },
+  { "hub": "Bangalore", "capacity": 7000 }
+]

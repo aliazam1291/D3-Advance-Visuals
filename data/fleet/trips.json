@@ -1,0 +1,18 @@
+[
+  {
+    "tripId": "TRP101",
+    "vehicleId": "DL-01-AF-2345",
+    "from": "Delhi Hub",
+    "to": "Noida Sector 18",
+    "distance": 42,
+    "status": "on_time"
+  },
+  {
+    "tripId": "TRP102",
+    "vehicleId": "MH-02-ZX-9912",
+    "from": "Mumbai Hub",
+    "to": "Andheri East",
+    "distance": 18,
+    "status": "delayed"
+  }
+]
