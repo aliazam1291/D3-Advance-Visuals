@@ -6,7 +6,7 @@ import Histogram from '@/charts/distribution/Histogram';
 import Heatmap from '@/charts/distribution/Heatmap';
 
 export default function OpsDashboard() {
-  const [opsData, setOpsData] = useState<any>(null);
+  const [opsData, setOpsData] = useState<Record<string, unknown> | null>(null);
 
   useEffect(() => {
     // Load operational data
@@ -29,15 +29,15 @@ export default function OpsDashboard() {
           <>
             <section className="chart-section">
               <h2>Metrics Timeline</h2>
-              <MultiLine data={opsData.metrics || []} />
+              <MultiLine data={(opsData?.metrics || []) as Array<Record<string, string | number>>} />
             </section>
             <section className="chart-section">
               <h2>Alarm Distribution</h2>
-              <Histogram data={opsData.alarms || []} />
+              <Histogram data={(opsData?.alarms || []) as number[]} />
             </section>
             <section className="chart-section">
               <h2>Trip Heatmap</h2>
-              <Heatmap data={opsData.trips || []} />
+              <Heatmap data={(opsData?.trips || []) as Array<{row: string; column: string; value: number}>} />
             </section>
           </>
         )}

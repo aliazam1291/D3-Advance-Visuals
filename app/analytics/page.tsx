@@ -11,10 +11,10 @@ export default function AnalyticsPage() {
   const profitMargin = Math.round(((totalRevenue - totalCost) / totalRevenue) * 100);
 
   const stats = [
-    { title: "Revenue", value: `$${(totalRevenue / 1000).toFixed(0)}K`, icon: "💰", color: "success" },
-    { title: "Cost", value: `$${(totalCost / 1000).toFixed(0)}K`, icon: "💸", color: "danger" },
-    { title: "Margin", value: `${profitMargin}%`, icon: "📈", color: "success" },
-    { title: "Days", value: analytics.length, icon: "📅", color: "accent" },
+    { title: "Revenue", value: `$${(totalRevenue / 1000).toFixed(0)}K`, icon: "💰", color: "success" as const },
+    { title: "Cost", value: `$${(totalCost / 1000).toFixed(0)}K`, icon: "💸", color: "danger" as const },
+    { title: "Margin", value: `${profitMargin}%`, icon: "📈", color: "success" as const },
+    { title: "Days", value: analytics.length, icon: "📅", color: "accent" as const },
   ];
 
   const revenueLine = analytics.map((d) => ({ x: d.date, y: d.revenue }));

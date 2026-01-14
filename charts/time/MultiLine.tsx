@@ -1,10 +1,9 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import * as d3 from 'd3';
 
 interface MultiLineProps {
-  data: any[];
+  data: Array<Record<string, string | number>>;
   width?: number;
   height?: number;
 }

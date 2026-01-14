@@ -8,6 +8,21 @@ import { MultiLineChart } from '@/charts/MultiLineChart';
 import { Histogram } from '@/charts/Histogram';
 import { Heatmap } from '@/charts/Heatmap';
 
+// Generate stable sample data outside component to avoid re-computation
+const generateHistogramData = () => {
+  const seed = 42; // Use a seed for reproducible random numbers
+  const data = [];
+  for (let i = 0; i < 100; i++) {
+    // Seeded pseudo-random number generator
+    const x = Math.sin(seed + i) * 10000;
+    const value = (x - Math.floor(x)) * 100;
+    data.push({ value });
+  }
+  return data;
+};
+
+const sampleHistogramData = generateHistogramData();
+
 interface ComponentShowcaseProps {
   title: string;
   component: React.ReactNode;
@@ -78,10 +93,6 @@ export default function ComponentsPage() {
     { date: '2025-01-04', revenue: 1400, cost: 800, profit: 600 },
     { date: '2025-01-05', revenue: 1300, cost: 750, profit: 550 },
   ];
-
-  const sampleHistogramData = Array.from({ length: 100 }, () => ({
-    value: Math.random() * 100,
-  }));
 
   const sampleHeatmapData = [
     { row: 'A', column: 'X', value: 65 },

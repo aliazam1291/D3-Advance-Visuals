@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
 
 function randInt(min, max) { return Math.floor(Math.random()*(max-min+1))+min }
 function randChoice(arr){ return arr[randInt(0, arr.length-1)] }
 function dateNDaysAgo(n){ const d = new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10) }
-function fmtDate(d){ return d.toISOString().slice(0,10) }
 
 const out = (p, obj) => {
   const full = path.join(__dirname, '..', 'data', p);
@@ -97,7 +97,6 @@ out('ecommerce/orders.json', orders);
 out('ecommerce/daily_sales_by_category.json', dailySalesByCategory);
 
 // Analytics: revenue/cost/profit per day (stacked revenue by channel)
-const channels = ['online','retail','partners'];
 const analytics = [];
 const trafficHeatmap = {}; // last 30 days, hours 0-23
 for (let d=0; d<DAYS; d++){

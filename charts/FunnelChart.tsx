@@ -10,7 +10,7 @@ export function FunnelChart({ data }: { data: { stage: string; count: number }[]
     <div className="bento-item">
       <h3 className="text-lg font-semibold mb-4">Pipeline</h3>
       <div className="flex flex-col gap-3">
-        {data.map((d, i) => {
+        {data.map((d) => {
           const pct = Math.round((d.count / max) * 100);
           return (
             <div key={d.stage} className="flex items-center gap-4 hover:scale-[1.01] transition-transform">

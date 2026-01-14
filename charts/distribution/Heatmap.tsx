@@ -1,10 +1,15 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import * as d3 from 'd3';
+
+interface HeatmapData {
+  row: string;
+  column: string;
+  value: number;
+}
 
 interface HeatmapProps {
-  data: any[];
+  data: HeatmapData[];
   width?: number;
   height?: number;
   colorScheme?: 'viridis' | 'plasma' | 'inferno';

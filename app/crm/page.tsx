@@ -14,10 +14,10 @@ export default function CRMPage() {
 
   // KPI Data Array (Matching Analytics Style)
   const stats = [
-    { title: "Leads", value: totalLeads, icon: "🎯", color: "accent" },
-    { title: "Converted", value: converted, icon: "✅", color: "success" },
-    { title: "Conversion", value: `${conversionRate}%`, icon: "📈", color: "success" },
-    { title: "Sources", value: 8, icon: "🌐", color: "info" },
+    { title: "Leads", value: totalLeads, icon: "🎯", color: "accent" as const },
+    { title: "Converted", value: converted, icon: "✅", color: "success" as const },
+    { title: "Conversion", value: `${conversionRate}%`, icon: "📈", color: "success" as const },
+    { title: "Sources", value: 8, icon: "🌐", color: "warning" as const },
   ];
 
   const srcMap: Record<string, number> = {}
@@ -32,9 +32,9 @@ export default function CRMPage() {
   const leadSeries = Object.keys(leadsByDay).sort().map((d) => ({ x: d, y: leadsByDay[d] }))
 
   const stages = Object.keys(pipelineMonthly[0].byStage)
-  const pipelineMulti = pipelineMonthly.map((m) => {
-    const o: any = { date: m.month }
-    stages.forEach((s) => (o[s] = m.byStage[s]))
+  const pipelineMulti: Array<Record<string, number | string>> = pipelineMonthly.map((m) => {
+    const o: Record<string, number | string> = { date: m.month }
+    stages.forEach((s) => (o[s] = m.byStage[s as keyof typeof m.byStage]))
     return o
   })
 
@@ -68,11 +68,11 @@ export default function CRMPage() {
         </div>
 
         <div className="lg:col-span-3 bento-item">
-          <MultiLineChart data={pipelineMulti} keys={stages} title="Pipeline by Stage" />
+          <MultiLineChart data={pipelineMulti as Array<{date: string | number; [key: string]: string | number}>} keys={stages} title="Pipeline by Stage" />
         </div>
 
         <div className="lg:col-span-2 bento-item">
-          <Heatmap data={pipelineHeatmap} />
+          <Heatmap data={pipelineHeatmap as Array<{row: string; column: string; value: number}>} />
         </div>
 
         <div className="bento-item">

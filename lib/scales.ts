@@ -41,8 +41,7 @@ export function createColorScale(domain: number[], scheme: string[] = [...d3.sch
  * Creates a continuous color scale
  */
 export function createContinuousColorScale(
-  domain: [number, number],
-  scheme: (t: number) => string
+  domain: [number, number]
 ): d3.ScaleLinear<string, string> {
-  return d3.scaleLinear<string>().domain(domain).range(['white', 'red']).interpolate(d3.interpolateRgb as any);
+  return d3.scaleLinear<string>().domain(domain).range(['white', 'red']).interpolate(d3.interpolateRgb as unknown as (a: string, b: string) => (t: number) => string);
 }

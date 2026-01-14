@@ -8,8 +8,13 @@ export function ThemeSwitcher() {
   const theme = useThemeStore((state) => state.theme);
   const toggleTheme = useThemeStore((state) => state.toggleTheme);
 
+  // Use startTransition or effect cleanup instead of direct setState
   useEffect(() => {
-    setMounted(true);
+    // Just mark as mounted, no state change needed during render
+    const timeout = setTimeout(() => {
+      setMounted(true);
+    }, 0);
+    return () => clearTimeout(timeout);
   }, []);
 
   if (!mounted) return null;

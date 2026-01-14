@@ -7,7 +7,7 @@ export default function SpeedHistogram() {
   const ref = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
-    const speeds = vehicles.map(v => v.speed);
+    const speeds = vehicles.map(v => v.speed_kmh);
     const width = 400;
     const height = 250;
 

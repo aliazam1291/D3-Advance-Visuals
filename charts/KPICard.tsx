@@ -1,8 +1,5 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import * as d3 from 'd3';
-
 interface KPICardProps {
   title: string;
   value: string | number;

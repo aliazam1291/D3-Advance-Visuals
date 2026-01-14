@@ -15,13 +15,9 @@ export default function TripTimeline() {
     svg.attr("width", width).attr("height", height);
 
     const x = d3.scaleBand()
-      .domain(trips.map(t => t.tripId))
+      .domain(trips.map(t => t.id))
       .range([40, width - 20])
       .padding(0.4);
-
-    const y = d3.scaleLinear()
-      .domain([0, 100])
-      .range([height - 40, 20]);
 
     svg.append("g")
       .attr("transform", `translate(0,${height - 40})`)
@@ -31,7 +27,7 @@ export default function TripTimeline() {
       .data(trips)
       .enter()
       .append("rect")
-      .attr("x", d => x(d.tripId)!)
+      .attr("x", d => x(d.id)!)
       .attr("y", 60)
       .attr("width", x.bandwidth())
       .attr("height", 40)

@@ -4,9 +4,11 @@ import { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 
 interface AxisProps {
-  scale: d3.AxisScale<any>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  scale: any;
   orientation: 'top' | 'bottom' | 'left' | 'right';
   tickSize?: number;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   tickFormat?: (d: any) => string;
 }
 
@@ -21,7 +23,8 @@ export default function Axis({
   useEffect(() => {
     if (!gRef.current) return;
 
-    let axis: d3.Axis<any>;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let axis: any;
 
     switch (orientation) {
       case 'bottom':

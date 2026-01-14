@@ -5,7 +5,7 @@ import * as d3 from 'd3';
  * Custom hook for D3 visualizations
  * Provides a ref to SVG element and handles D3 operations
  */
-export function useD3<T>(
+export function useD3(
   callback: (svg: d3.Selection<SVGSVGElement, unknown, null, undefined>) => void,
   deps?: React.DependencyList
 ) {
@@ -15,6 +15,7 @@ export function useD3<T>(
     if (ref.current) {
       callback(d3.select(ref.current) as d3.Selection<SVGSVGElement, unknown, null, undefined>);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps);
 
   return ref;

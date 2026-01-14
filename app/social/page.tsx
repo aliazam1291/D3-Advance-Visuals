@@ -3,7 +3,6 @@ import { LineChart } from '@/charts/LineChart'
 import { DonutChart } from '@/charts/DonutChart'
 import { BarChart } from '@/charts/BarChart'
 import { MultiLineChart } from '@/charts/MultiLineChart'
-import { Heatmap } from '@/charts/Heatmap'
 import socialData from '@/data/social/social_metrics.json'
 
 export default function SocialPage() {
@@ -22,10 +21,10 @@ export default function SocialPage() {
 
   // KPI Data Array (Matching Analytics Style)
   const stats = [
-    { title: "Followers", value: totalFollowers.toLocaleString(), icon: "👥", color: "accent" },
-    { title: "Reach", value: totalReach.toLocaleString(), icon: "📣", color: "info" },
-    { title: "Engagement", value: `${avgEngagement}%`, icon: "❤️", color: "success" },
-    { title: "Platforms", value: platforms.length, icon: "📱", color: "warning" },
+    { title: "Followers", value: totalFollowers.toLocaleString(), icon: "👥", color: "accent" as const },
+    { title: "Reach", value: totalReach.toLocaleString(), icon: "📣", color: "warning" as const },
+    { title: "Engagement", value: `${avgEngagement}%`, icon: "❤️", color: "success" as const },
+    { title: "Platforms", value: platforms.length, icon: "📱", color: "warning" as const },
   ];
 
   const days = socialData.platforms[platforms[0]] || []
@@ -36,7 +35,7 @@ export default function SocialPage() {
   })
 
   const reachMulti = days.map((d, i) => {
-    const row: any = { date: d.date }
+    const row: Record<string, number | string> = { date: d.date }
     for (const p of platforms) row[p] = socialData.platforms[p]?.[i]?.reach || 0
     return row
   })
@@ -73,7 +72,7 @@ export default function SocialPage() {
         
 
         <div className="lg:col-span-3 ">
-          <MultiLineChart data={reachMulti} keys={platforms} title="Reach by Platform" />
+          <MultiLineChart data={reachMulti as Array<{date: string | number; [key: string]: string | number}>} keys={platforms} title="Reach by Platform" />
         </div>
 
         <div className="lg:col-span-2 ">
